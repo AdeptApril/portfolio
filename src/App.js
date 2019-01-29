@@ -7,9 +7,12 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
+          {/*var previewImage = require('./images/LoveStoryScreenshot.png')*/}
+          {/*<img src={require('./images/LoveStoryScreenshot.png')} />*/}
           <img src={logo} className="App-logo" alt="logo" />
           <p>
             Edit <code>src/App.js</code> and save to reload.
+            Editing!
           </p>
           <a
             className="App-link"
