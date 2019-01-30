@@ -20,9 +20,19 @@ code {
   justify-content: center;
 }
 
-.projects {
+.bio-title {
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.projects-left {
   font-size: xx-large;
 }
+
+.projects-right {
+    font-size: xx-large;
+}
+
 
 .image-div {
   border-radius: 50%;
