@@ -36,6 +36,7 @@ code {
 
 .image-div {
   border-radius: 50%;
+    margin: 10pt;
   overflow: hidden;
 }
 

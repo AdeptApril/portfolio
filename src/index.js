@@ -8,7 +8,10 @@ const pics = {
     plantProject: require('./images/PlantProjectVideoThumbnail_Square.png'),
     deutschTelekom: require('./images/XGM_Square.png'),
     bioPic: require('./images/AprilWithSkeleton_Square.jpg'),
-    reactPortfolio: require('./images/PortfolioV1_Square.png')
+    reactPortfolio: require('./images/PortfolioV2_Square.png'),
+    endHeyGuys: require('./images/end_hey_guys_Square.png'),
+    checkoutThemes: require('./images/StorybookScanItem_Square.jpg'),
+    juggling: require('./images/juggling_Square.jpg')
 };
 
 class AppTry extends Component {
@@ -24,23 +27,36 @@ class AppTry extends Component {
 
     handlePictureChange(pictureName) {
         this.setState({picture: pictureName});
-        if(pictureName === "loveStory" ){
-            this.setState({pic: pics.loveStory});
-        }
-        if(pictureName === "diploma" ){
-            this.setState({pic: pics.diploma});
-        }
-        if(pictureName === "plantProject" ) {
-            this.setState({pic:pics.plantProject});
-        }
-        if(pictureName === "deutschTelekom" ) {
-            this.setState({pic:pics.deutschTelekom});
-        }
-        if(pictureName === "bioPic") {
-            this.setState( {pic:pics.bioPic});
-        }
-        if(pictureName === "reactPortfolio") {
-            this.setState( {pic:pics.reactPortfolio});
+        switch(pictureName) {
+            case "loveStory":
+                this.setState({pic: pics.loveStory});
+                break;
+            case "diploma":
+                this.setState({pic: pics.diploma});
+                break;
+            case "plantProject":
+                this.setState({pic:pics.plantProject});
+                break;
+            case "deutschTelekom":
+                this.setState({pic:pics.deutschTelekom});
+                break;
+            case "bioPic":
+                this.setState( {pic:pics.bioPic});
+                break;
+            case "reactPortfolio":
+                this.setState( {pic:pics.reactPortfolio});
+                break;
+            case "endHeyGuys":
+                this.setState( {pic:pics.endHeyGuys});
+                break;
+            case "checkoutThemes":
+                this.setState( {pic:pics.checkoutThemes});
+                break;
+            case "juggling":
+                this.setState( {pic:pics.juggling});
+                break;
+            default:
+                this.setState( {pic:pics.bioPic});
         }
         //For Debugging:
         //console.log(this.state.picture + " " + pictureName);
@@ -64,6 +80,12 @@ class AppTry extends Component {
                         <p onMouseEnter={() => this.handlePictureChange("deutschTelekom")}>
                             Smart Glasses Machine Monitor
                         </p>
+                        <p onMouseEnter={() => this.handlePictureChange("endHeyGuys")}>
+                            Hackathon Project: End Hey Guys
+                        </p>
+                        <p onMouseEnter={() => this.handlePictureChange("checkoutThemes")}>
+                            Checkout Themes
+                        </p>
                     </div>
                     <div className="image-div">
                         <span><img className="center-img" alt="" src={this.state.pic}/></span>
@@ -77,6 +99,9 @@ class AppTry extends Component {
                         </p>
                         <p onMouseEnter={() => this.handlePictureChange("reactPortfolio")}>
                             React Portfolio Site
+                        </p>
+                        <p onMouseEnter={() => this.handlePictureChange("juggling")}>
+                            Juggling
                         </p>
                     </div>
                 </div>
