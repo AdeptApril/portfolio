@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 import './index.css';
+import InfoLoveStory from './InfoLoveStory.js';
 
 const pics = {
     loveStory: require('./images/LoveStoryScreenshot_Square.png'),
@@ -14,14 +15,22 @@ const pics = {
     juggling: require('./images/juggling_Square.jpg')
 };
 
+const subject = {
+    loveStory: <InfoLoveStory />
+};
+
 class AppTry extends Component {
     constructor(props) {
         super(props);
+        this.showInfoOn = this.showInfoOn.bind(this);
         this.handlePictureChange = this.handlePictureChange.bind(this);
+
         this.state = {
             name: 'React',
             picture: "",
-            pic: pics.bioPic
+            pic: pics.bioPic,
+            currentSubject: "",
+            currSubDiv: null
         };
     }
 
@@ -62,9 +71,52 @@ class AppTry extends Component {
         //console.log(this.state.picture + " " + pictureName);
     }
 
+    showInfoOn(newSubject) {
+        // this.hidePreviousSubject();
+        this.setState({currentSubject: newSubject});
+        switch(newSubject) {
+            case "loveStory":
+                this.setState({currSubDiv: subject.loveStory});
+                break;
+            case "diploma":
+                this.setState({pic: pics.diploma});
+                break;
+            case "plantProject":
+                this.setState({pic:pics.plantProject});
+                break;
+            case "deutschTelekom":
+                this.setState({pic:pics.deutschTelekom});
+                break;
+            case "bioPic":
+                this.setState( {pic:pics.bioPic});
+                break;
+            case "reactPortfolio":
+                this.setState( {pic:pics.reactPortfolio});
+                break;
+            case "endHeyGuys":
+                this.setState( {pic:pics.endHeyGuys});
+                break;
+            case "checkoutThemes":
+                this.setState( {pic:pics.checkoutThemes});
+                break;
+            case "juggling":
+                this.setState( {pic:pics.juggling});
+                break;
+            default:
+                this.setState( {currSubDiv: ""});
+        }
+        console.log(this.state.currentSubject + " " + newSubject);
+    }
+
+    hidePreviousSubject() {
+
+    }
+
     render() {
         return (
             <div>
+                {/*TODO: remake all the items as functions (e.g., showTitleItem(), showLeftSideItems())*/}
+                {/*TODO: remake items as a list of items, rather than this more prescriptive way*/}
                 <div className="row">
                     <div className="bio-title">
                         <p onMouseEnter={() => this.handlePictureChange("bioPic")}>
@@ -91,7 +143,8 @@ class AppTry extends Component {
                         <span><img className="center-img" alt="" src={this.state.pic}/></span>
                     </div>
                     <div className="projects-right">
-                        <p onMouseEnter={() => this.handlePictureChange("loveStory")}>
+                        <p onMouseEnter={() => this.handlePictureChange("loveStory")}
+                           onClick={() => this.showInfoOn("loveStory")}>
                             Love Story Real-Time Demo
                         </p>
                         <p onMouseEnter={() => this.handlePictureChange("diploma")}>
@@ -103,6 +156,14 @@ class AppTry extends Component {
                         <p onMouseEnter={() => this.handlePictureChange("juggling")}>
                             Juggling
                         </p>
+                    </div>
+                </div>
+                <div className="row">
+                    {/*Further info placed here*/}
+                    <div className="furtherInfo">
+                        <div>
+                            {this.state.currSubDiv}
+                        </div>
                     </div>
                 </div>
             </div>
