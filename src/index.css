@@ -23,16 +23,34 @@ code {
 .bio-title {
     font-size: xx-large;
     font-weight: bolder;
+    text-decoration: none;
+}
+
+.bio-title:hover {
+    font-size: xx-large;
+    font-weight: bolder;
+    text-decoration: underline;
 }
 
 .projects-left {
   font-size: xx-large;
+    text-decoration: none;
+}
+
+.projects-left:hover {
+    font-size: xx-large;
+    text-decoration: underline;
 }
 
 .projects-right {
     font-size: xx-large;
+    text-decoration: none;
 }
 
+.projects-right:hover {
+    font-size: xx-large;
+    text-decoration: underline;
+}
 
 .image-div {
   border-radius: 50%;
@@ -42,8 +60,8 @@ code {
 
 .center-img {
    vertical-align: middle;
-   height: 75vh;
-   width: 75vh;
+   height: 60vh;
+   width: 60vh;
  }
 
 .paragraph-header {

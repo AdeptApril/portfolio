@@ -72,7 +72,6 @@ class AppTry extends Component {
     }
 
     showInfoOn(newSubject) {
-        // this.hidePreviousSubject();
         this.setState({currentSubject: newSubject});
         switch(newSubject) {
             case "loveStory":
@@ -105,11 +104,13 @@ class AppTry extends Component {
             default:
                 this.setState( {currSubDiv: ""});
         }
-        console.log(this.state.currentSubject + " " + newSubject);
+        //For debugging
+        //console.log(this.state.currentSubject + " " + newSubject);
     }
 
-    hidePreviousSubject() {
-
+    hideSubject() {
+        this.setState({currentSubject: ""});
+        this.setState( {currSubDiv: ""});
     }
 
     render() {
@@ -118,42 +119,51 @@ class AppTry extends Component {
                 {/*TODO: remake all the items as functions (e.g., showTitleItem(), showLeftSideItems())*/}
                 {/*TODO: remake items as a list of items, rather than this more prescriptive way*/}
                 <div className="row">
-                    <div className="bio-title">
-                        <p onMouseEnter={() => this.handlePictureChange("bioPic")}>
+                    <div>
+                        <p className="bio-title"
+                            onMouseEnter={() => this.handlePictureChange("bioPic")}>
                             April Monoceros Bio
                         </p>
                     </div>
                 </div>
                 <div className="row">
-                    <div className="projects-left">
-                        <p onMouseEnter={() => this.handlePictureChange("plantProject")}>
+                    <div>
+                        <p className="projects-left"
+                            onMouseEnter={() => this.handlePictureChange("plantProject")}>
                             Remote Plant Watering
                         </p>
-                        <p onMouseEnter={() => this.handlePictureChange("deutschTelekom")}>
+                        <p className="projects-left"
+                            onMouseEnter={() => this.handlePictureChange("deutschTelekom")}>
                             Smart Glasses Machine Monitor
                         </p>
-                        <p onMouseEnter={() => this.handlePictureChange("endHeyGuys")}>
+                        <p className="projects-left"
+                            onMouseEnter={() => this.handlePictureChange("endHeyGuys")}>
                             Hackathon Project: End Hey Guys
                         </p>
-                        <p onMouseEnter={() => this.handlePictureChange("checkoutThemes")}>
+                        <p className="projects-left"
+                            onMouseEnter={() => this.handlePictureChange("checkoutThemes")}>
                             Checkout Themes
                         </p>
                     </div>
                     <div className="image-div">
                         <span><img className="center-img" alt="" src={this.state.pic}/></span>
                     </div>
-                    <div className="projects-right">
-                        <p onMouseEnter={() => this.handlePictureChange("loveStory")}
+                    <div>
+                        <p className="projects-right"
+                            onMouseEnter={() => this.handlePictureChange("loveStory")}
                            onClick={() => this.showInfoOn("loveStory")}>
                             Love Story Real-Time Demo
                         </p>
-                        <p onMouseEnter={() => this.handlePictureChange("diploma")}>
+                        <p className="projects-right"
+                            onMouseEnter={() => this.handlePictureChange("diploma")}>
                             Computer Science Masters
                         </p>
-                        <p onMouseEnter={() => this.handlePictureChange("reactPortfolio")}>
+                        <p className="projects-right"
+                            onMouseEnter={() => this.handlePictureChange("reactPortfolio")}>
                             React Portfolio Site
                         </p>
-                        <p onMouseEnter={() => this.handlePictureChange("juggling")}>
+                        <p className="projects-right"
+                            onMouseEnter={() => this.handlePictureChange("juggling")}>
                             Juggling
                         </p>
                     </div>
