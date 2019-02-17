@@ -45,3 +45,7 @@ code {
    height: 75vh;
    width: 75vh;
  }
+
+.paragraph-header {
+    font-size: xx-large;
+}
