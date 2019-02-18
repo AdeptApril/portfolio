@@ -1,5 +1,7 @@
 import React from 'react';
 
+/*Provides data and structure for when further info is wanted on
+* LoveStory, the demoscene project*/
 export default class InfoLoveStory extends React.Component{
     render() {
         return (

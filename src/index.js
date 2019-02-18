@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { render } from 'react-dom';
 import './index.css';
 import InfoLoveStory from './InfoLoveStory.js';
+import InfoMasters from './InfoMasters.js';
 
 const pics = {
     loveStory: require('./images/LoveStoryScreenshot_Square.png'),
@@ -16,7 +17,8 @@ const pics = {
 };
 
 const subject = {
-    loveStory: <InfoLoveStory />
+    loveStory: <InfoLoveStory />,
+    diploma: <InfoMasters />
 };
 
 class AppTry extends Component {
@@ -78,7 +80,7 @@ class AppTry extends Component {
                 this.setState({currSubDiv: subject.loveStory});
                 break;
             case "diploma":
-                this.setState({pic: pics.diploma});
+                this.setState({currSubDiv: subject.diploma});
                 break;
             case "plantProject":
                 this.setState({pic:pics.plantProject});
@@ -151,11 +153,12 @@ class AppTry extends Component {
                     <div>
                         <p className="projects-right"
                             onMouseEnter={() => this.handlePictureChange("loveStory")}
-                           onClick={() => this.showInfoOn("loveStory")}>
+                            onClick={() => this.showInfoOn("loveStory")}>
                             Love Story Real-Time Demo
                         </p>
                         <p className="projects-right"
-                            onMouseEnter={() => this.handlePictureChange("diploma")}>
+                            onMouseEnter={() => this.handlePictureChange("diploma")}
+                            onClick={() => this.showInfoOn("diploma")}>
                             Computer Science Masters
                         </p>
                         <p className="projects-right"
@@ -170,7 +173,7 @@ class AppTry extends Component {
                 </div>
                 <div className="row">
                     {/*Further info placed here*/}
-                    <div className="furtherInfo">
+                    <div className="further-info">
                         <div>
                             {this.state.currSubDiv}
                         </div>
