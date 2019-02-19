@@ -68,6 +68,11 @@ code {
 
 }
 
+.info-div {
+    margin: auto;
+    width: 75%;
+}
+
 .paragraph-header {
     font-size: xx-large;
 }

@@ -3,6 +3,7 @@ import { render } from 'react-dom';
 import './index.css';
 import InfoLoveStory from './InfoLoveStory.js';
 import InfoMasters from './InfoMasters.js';
+import InfoCheckoutThemes from './InfoCheckoutThemes';
 
 const pics = {
     loveStory: require('./images/LoveStoryScreenshot_Square.png'),
@@ -10,7 +11,7 @@ const pics = {
     plantProject: require('./images/PlantProjectVideoThumbnail_Square.png'),
     deutschTelekom: require('./images/XGM_Square.png'),
     bioPic: require('./images/AprilWithSkeleton_Square.jpg'),
-    reactPortfolio: require('./images/PortfolioV2_Square.png'),
+    reactPortfolio: require('./images/PortfolioV4_Square.png'),
     endHeyGuys: require('./images/end_hey_guys_Square.png'),
     checkoutThemes: require('./images/StorybookScanItem_Square.jpg'),
     juggling: require('./images/juggling_Square.jpg')
@@ -18,7 +19,8 @@ const pics = {
 
 const subject = {
     loveStory: <InfoLoveStory />,
-    diploma: <InfoMasters />
+    diploma: <InfoMasters />,
+    checkoutThemes: <InfoCheckoutThemes />,
 };
 
 class AppTry extends Component {
@@ -83,36 +85,31 @@ class AppTry extends Component {
                 this.setState({currSubDiv: subject.diploma});
                 break;
             case "plantProject":
-                this.setState({pic:pics.plantProject});
+                this.setState({currSubDiv: null});
                 break;
             case "deutschTelekom":
-                this.setState({pic:pics.deutschTelekom});
+                this.setState({currSubDiv: null});
                 break;
             case "bioPic":
-                this.setState( {pic:pics.bioPic});
+                this.setState( {currSubDiv: null});
                 break;
             case "reactPortfolio":
-                this.setState( {pic:pics.reactPortfolio});
+                this.setState( {currSubDiv: null});
                 break;
             case "endHeyGuys":
-                this.setState( {pic:pics.endHeyGuys});
+                this.setState( {currSubDiv: null});
                 break;
             case "checkoutThemes":
-                this.setState( {pic:pics.checkoutThemes});
+                this.setState( {currSubDiv: subject.checkoutThemes});
                 break;
             case "juggling":
-                this.setState( {pic:pics.juggling});
+                this.setState( {currSubDiv: null});
                 break;
             default:
-                this.setState( {currSubDiv: ""});
+                this.setState( {currSubDiv: null});
         }
         //For debugging
-        //console.log(this.state.currentSubject + " " + newSubject);
-    }
-
-    hideSubject() {
-        this.setState({currentSubject: ""});
-        this.setState( {currSubDiv: ""});
+        //console.log(this.state.currentSubject + " " + newSubject + " " + this.state.currSubDiv );
     }
 
     render() {
@@ -120,30 +117,37 @@ class AppTry extends Component {
             <div>
                 {/*TODO: remake all the items as functions (e.g., showTitleItem(), showLeftSideItems())*/}
                 {/*TODO: remake items as a list of items, rather than this more prescriptive way*/}
+                {/*Top row is a link for the Bio / a header*/}
                 <div className="row">
                     <div>
                         <p className="bio-title"
-                            onMouseEnter={() => this.handlePictureChange("bioPic")}>
+                            onMouseEnter={() => this.handlePictureChange("bioPic")}
+                            onClick={() => this.showInfoOn("bioPic")}>
                             April Monoceros Bio
                         </p>
                     </div>
                 </div>
+                {/*This row has projects-left image-div projects-right. So general idea is list of projects around the center image*/}
                 <div className="row">
                     <div>
                         <p className="projects-left"
-                            onMouseEnter={() => this.handlePictureChange("plantProject")}>
+                            onMouseEnter={() => this.handlePictureChange("plantProject")}
+                            onClick={() => this.showInfoOn("plantProject")}>
                             Remote Plant Watering
                         </p>
                         <p className="projects-left"
-                            onMouseEnter={() => this.handlePictureChange("deutschTelekom")}>
+                            onMouseEnter={() => this.handlePictureChange("deutschTelekom")}
+                            onClick={() => this.showInfoOn("deutschTelekom")}>
                             Smart Glasses Machine Monitor
                         </p>
                         <p className="projects-left"
-                            onMouseEnter={() => this.handlePictureChange("endHeyGuys")}>
+                            onMouseEnter={() => this.handlePictureChange("endHeyGuys")}
+                            onClick={() => this.showInfoOn("endHeyGuys")}>
                             Hackathon Project: End Hey Guys
                         </p>
                         <p className="projects-left"
-                            onMouseEnter={() => this.handlePictureChange("checkoutThemes")}>
+                            onMouseEnter={() => this.handlePictureChange("checkoutThemes")}
+                            onClick={() => this.showInfoOn("checkoutThemes")}>
                             Checkout Themes
                         </p>
                     </div>
@@ -162,11 +166,13 @@ class AppTry extends Component {
                             Computer Science Masters
                         </p>
                         <p className="projects-right"
-                            onMouseEnter={() => this.handlePictureChange("reactPortfolio")}>
+                            onMouseEnter={() => this.handlePictureChange("reactPortfolio")}
+                            onClick={() => this.showInfoOn("reactPortfolio")}>
                             React Portfolio Site
                         </p>
                         <p className="projects-right"
-                            onMouseEnter={() => this.handlePictureChange("juggling")}>
+                            onMouseEnter={() => this.handlePictureChange("juggling")}
+                            onClick={() => this.showInfoOn("juggling")}>
                             Juggling
                         </p>
                     </div>

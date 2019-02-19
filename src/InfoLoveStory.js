@@ -5,7 +5,7 @@ import React from 'react';
 export default class InfoLoveStory extends React.Component{
     render() {
         return (
-            <div>
+            <div className="info-div">
                 <p className="paragraph-header">Intro</p>
                 <p>"Love Story" is a demo that debuted at Evoke 2017, and was the primary reason that Monoceros (as a demo group) won the newcomer award at that demo party</p>
                 <p className="paragraph-header">Background of the demo</p>
