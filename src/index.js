@@ -1,9 +1,15 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 import './index.css';
-import InfoLoveStory from './InfoLoveStory.js';
-import InfoMasters from './InfoMasters.js';
-import InfoCheckoutThemes from './InfoCheckoutThemes';
+import InfoLoveStory from './info_pages/InfoLoveStory.js';
+import InfoMasters from './info_pages/InfoMasters.js';
+import InfoCheckoutThemes from './info_pages/InfoCheckoutThemes';
+import InfoBio from './info_pages/InfoBio.js';
+import InfoDeutschTelekom from './info_pages/InfoDeutschTelekom.js';
+import InfoEndHeyGuys from './info_pages/InfoEndHeyGuys';
+import InfoJuggling from './info_pages/InfoJuggling';
+import InfoPlantProject from './info_pages/InfoPlantProject';
+import InfoReactPortfolio from './info_pages/InfoReactPortfolio';
 
 const pics = {
     loveStory: require('./images/LoveStoryScreenshot_Square.png'),
