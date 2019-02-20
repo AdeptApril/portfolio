@@ -27,6 +27,12 @@ const subject = {
     loveStory: <InfoLoveStory />,
     diploma: <InfoMasters />,
     checkoutThemes: <InfoCheckoutThemes />,
+    bioPic: <InfoBio />,
+    deutschTelekom: <InfoDeutschTelekom />,
+    endHeyGuys: <InfoEndHeyGuys />,
+    juggling: <InfoJuggling />,
+    plantProject: <InfoPlantProject />,
+    reactPortfolio: <InfoReactPortfolio />
 };
 
 class AppTry extends Component {
@@ -94,7 +100,7 @@ class AppTry extends Component {
                 this.setState({currSubDiv: null});
                 break;
             case "deutschTelekom":
-                this.setState({currSubDiv: null});
+                this.setState({currSubDiv: subject.deutschTelekom});
                 break;
             case "bioPic":
                 this.setState( {currSubDiv: null});
