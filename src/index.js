@@ -42,14 +42,16 @@ class AppTry extends Component {
         this.handlePictureChange = this.handlePictureChange.bind(this);
 
         this.state = {
-            name: 'React',
-            picture: "",
-            pic: pics.bioPic,
-            currentSubject: "",
-            currSubDiv: null
+            name: 'Portfolio', //Name of the general portfolio? I don't know where this is used.
+            picture: "", //The string for the name of the current picture (May not be needed)
+            pic: pics.bioPic, //The links to the various included pictures
+            currentSubject: "", //The string for the name of the current Info subject (May not be needed)
+            currSubDiv: null //Which subject to be showing additional info about.
         };
     }
 
+    //This should be called when the center picture should be changed.
+    //As of this writing, it's when the pointer hovers over a given link.
     handlePictureChange(pictureName) {
         this.setState({picture: pictureName});
         switch(pictureName) {
@@ -87,6 +89,8 @@ class AppTry extends Component {
         //console.log(this.state.picture + " " + pictureName);
     }
 
+    //These replace the bottom portion of the screen where {this.state.currSubDiv} is called
+    //This should be called when one of the links are clicked
     showInfoOn(newSubject) {
         this.setState({currentSubject: newSubject});
         switch(newSubject) {
@@ -97,13 +101,13 @@ class AppTry extends Component {
                 this.setState({currSubDiv: subject.diploma});
                 break;
             case "plantProject":
-                this.setState({currSubDiv: null});
+                this.setState({currSubDiv: subject.plantProject});
                 break;
             case "deutschTelekom":
                 this.setState({currSubDiv: subject.deutschTelekom});
                 break;
             case "bioPic":
-                this.setState( {currSubDiv: null});
+                this.setState( {currSubDiv: subject.bioPic});
                 break;
             case "reactPortfolio":
                 this.setState( {currSubDiv: null});
@@ -189,7 +193,7 @@ class AppTry extends Component {
                         </p>
                     </div>
                 </div>
-                <div className="row">
+                <div className="further-info">
                     {/*Further info placed here*/}
                     <div className="further-info">
                         <div>
