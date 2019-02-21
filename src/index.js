@@ -110,16 +110,16 @@ class AppTry extends Component {
                 this.setState( {currSubDiv: subject.bioPic});
                 break;
             case "reactPortfolio":
-                this.setState( {currSubDiv: null});
+                this.setState( {currSubDiv: subject.reactPortfolio});
                 break;
             case "endHeyGuys":
-                this.setState( {currSubDiv: null});
+                this.setState( {currSubDiv: subject.endHeyGuys});
                 break;
             case "checkoutThemes":
                 this.setState( {currSubDiv: subject.checkoutThemes});
                 break;
             case "juggling":
-                this.setState( {currSubDiv: null});
+                this.setState( {currSubDiv: subject.juggling});
                 break;
             default:
                 this.setState( {currSubDiv: null});
