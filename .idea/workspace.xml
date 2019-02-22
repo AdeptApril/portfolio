@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b4fe8385-7cc4-4503-952f-e3b69a5e5be4" name="Default Changelist" comment="*Changed className for the last row, as it was messing up the formatting&#10;*Changed name in this.state&#10;*Added some comments&#10;*Added basic text info to PlantProject and Bio&#10;*Added an additional line to Masters.">
+    <list default="true" id="b4fe8385-7cc4-4503-952f-e3b69a5e5be4" name="Default Changelist" comment="*Added in a background video for plant watering">
+      <change afterPath="$PROJECT_DIR$/src/VideoPlantWatering.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/info_pages/InfoBio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/info_pages/InfoBio.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/info_pages/InfoMasters.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/info_pages/InfoMasters.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/info_pages/InfoPlantProject.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/info_pages/InfoPlantProject.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,8 +24,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="71" column="17" lean-forward="true" selection-start-line="71" selection-start-column="17" selection-end-line="71" selection-end-column="17" />
+            <state relative-caret-position="282">
+              <caret line="66" column="18" lean-forward="true" selection-start-line="66" selection-start-column="18" selection-end-line="66" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -41,23 +40,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/info_pages/InfoCheckoutThemes.js">
+        <entry file="file://$PROJECT_DIR$/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+            <state relative-caret-position="248">
+              <caret line="124" column="64" selection-start-line="124" selection-start-column="64" selection-end-line="124" selection-end-column="64" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/index.js">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/VideoPlantWatering.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="53" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="53" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-                <element signature="n#!!block;n#handlePictureChange#0;n#AppTry#0" />
-              </folding>
+            <state relative-caret-position="408">
+              <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -65,8 +63,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/info_pages/InfoJuggling.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+            <state relative-caret-position="170">
+              <caret line="10" column="319" selection-start-line="10" selection-start-column="319" selection-end-line="10" selection-end-column="319" />
             </state>
           </provider>
         </entry>
@@ -74,8 +72,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/info_pages/InfoEndHeyGuys.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+            <state relative-caret-position="51">
+              <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -83,13 +81,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/info_pages/InfoReactPortfolio.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+            <state relative-caret-position="136">
+              <caret line="8" column="60" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/info_pages/InfoBio.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
@@ -160,23 +158,24 @@
         <option value="$PROJECT_DIR$/src/InfoReactPortfolio.js" />
         <option value="$PROJECT_DIR$/src/InfoEndHeyGuys.js" />
         <option value="$PROJECT_DIR$/src/InfoJuggling.js" />
-        <option value="$PROJECT_DIR$/src/info_pages/InfoReactPortfolio.js" />
-        <option value="$PROJECT_DIR$/src/info_pages/InfoEndHeyGuys.js" />
-        <option value="$PROJECT_DIR$/src/info_pages/InfoJuggling.js" />
         <option value="$PROJECT_DIR$/src/info_pages/InfoDeutschTelekom.js" />
         <option value="$PROJECT_DIR$/src/info_pages/InfoMasters.js" />
-        <option value="$PROJECT_DIR$/src/index.css" />
         <option value="$PROJECT_DIR$/src/info_pages/InfoPlantProject.js" />
-        <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/info_pages/InfoBio.js" />
+        <option value="$PROJECT_DIR$/src/info_pages/InfoReactPortfolio.js" />
+        <option value="$PROJECT_DIR$/src/info_pages/InfoJuggling.js" />
+        <option value="$PROJECT_DIR$/src/info_pages/InfoEndHeyGuys.js" />
+        <option value="$PROJECT_DIR$/src/index.css" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/VideoPlantWatering.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-49" />
-    <option name="y" value="-1101" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1936" />
-    <option name="height" value="1096" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -207,6 +206,12 @@
               <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
               <item name="portfolio" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
@@ -294,7 +299,7 @@
       <workItem from="1550036212373" duration="7146000" />
       <workItem from="1550211154750" duration="18547000" />
       <workItem from="1550551871452" duration="15235000" />
-      <workItem from="1550723275418" duration="11048000" />
+      <workItem from="1550723275418" duration="15530000" />
     </task>
     <task id="LOCAL-00001" summary="First version, with some support files included">
       <created>1548786530466</created>
@@ -373,11 +378,25 @@
       <option name="project" value="LOCAL" />
       <updated>1550706959440</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="*Changed className for the last row, as it was messing up the formatting&#10;*Changed name in this.state&#10;*Added some comments&#10;*Added basic text info to PlantProject and Bio&#10;*Added an additional line to Masters.">
+      <created>1550737953263</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1550737953264</updated>
+    </task>
+    <task id="LOCAL-00013" summary="*Added basic text info to EndHeyGuys, Juggling, and ReactPortfolio">
+      <created>1550739177795</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1550739177795</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119998000" />
+    <option name="totallyTimeSpent" value="124480000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -389,7 +408,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-1088" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49093905" visible="true" weight="0.24868283" />
       <window_info id="Structure" order="1" sideWeight="0.509061" side_tool="true" weight="0.25106382" />
@@ -483,7 +503,9 @@
     <MESSAGE value="*Moved info pages into their own directory&#10;*Added stub pages for the six other currently-mentioned projects" />
     <MESSAGE value="*Added basic story to the Deutsch Telekom info page&#10;*Added connections to the previously-created (but not filled out) Info files" />
     <MESSAGE value="*Changed className for the last row, as it was messing up the formatting&#10;*Changed name in this.state&#10;*Added some comments&#10;*Added basic text info to PlantProject and Bio&#10;*Added an additional line to Masters." />
-    <option name="LAST_COMMIT_MESSAGE" value="*Changed className for the last row, as it was messing up the formatting&#10;*Changed name in this.state&#10;*Added some comments&#10;*Added basic text info to PlantProject and Bio&#10;*Added an additional line to Masters." />
+    <MESSAGE value="*Added basic text info to EndHeyGuys, Juggling, and ReactPortfolio" />
+    <MESSAGE value="*Added in a background video for plant watering" />
+    <option name="LAST_COMMIT_MESSAGE" value="*Added in a background video for plant watering" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Hello.js" />
@@ -499,34 +521,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/info_pages/InfoJuggling.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/info_pages/InfoEndHeyGuys.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/info_pages/InfoReactPortfolio.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="71" column="17" lean-forward="true" selection-start-line="71" selection-start-column="17" selection-end-line="71" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -558,21 +552,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="53" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-            <element signature="n#!!block;n#handlePictureChange#0;n#AppTry#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/info_pages/InfoBio.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/info_pages/InfoReactPortfolio.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="60" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/info_pages/InfoJuggling.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="319" selection-start-line="10" selection-start-column="319" selection-end-line="10" selection-end-column="319" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/info_pages/InfoEndHeyGuys.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="66" column="18" lean-forward="true" selection-start-line="66" selection-start-column="18" selection-end-line="66" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="124" column="64" selection-start-line="124" selection-start-column="64" selection-end-line="124" selection-end-column="64" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/VideoPlantWatering.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
         </state>
       </provider>
     </entry>

@@ -10,6 +10,7 @@ import InfoEndHeyGuys from './info_pages/InfoEndHeyGuys';
 import InfoJuggling from './info_pages/InfoJuggling';
 import InfoPlantProject from './info_pages/InfoPlantProject';
 import InfoReactPortfolio from './info_pages/InfoReactPortfolio';
+import VideoPlantWatering from "./VideoPlantWatering";
 
 const pics = {
     loveStory: require('./images/LoveStoryScreenshot_Square.png'),
@@ -35,6 +36,10 @@ const subject = {
     reactPortfolio: <InfoReactPortfolio />
 };
 
+    const video = {
+    plantProject: <VideoPlantWatering/>
+    };
+
 class AppTry extends Component {
     constructor(props) {
         super(props);
@@ -46,7 +51,8 @@ class AppTry extends Component {
             picture: "", //The string for the name of the current picture (May not be needed)
             pic: pics.bioPic, //The links to the various included pictures
             currentSubject: "", //The string for the name of the current Info subject (May not be needed)
-            currSubDiv: null //Which subject to be showing additional info about.
+            currSubDiv: null, //Which subject to be showing additional info about.
+            currVideo: null
         };
     }
 
@@ -96,33 +102,44 @@ class AppTry extends Component {
         switch(newSubject) {
             case "loveStory":
                 this.setState({currSubDiv: subject.loveStory});
+                this.setState({currVideo: null});
                 break;
             case "diploma":
                 this.setState({currSubDiv: subject.diploma});
+                this.setState({currVideo: null});
                 break;
             case "plantProject":
                 this.setState({currSubDiv: subject.plantProject});
+                this.setState({pic:null});
+                this.setState({currVideo: video.plantProject});
                 break;
             case "deutschTelekom":
                 this.setState({currSubDiv: subject.deutschTelekom});
+                this.setState({currVideo: null});
                 break;
             case "bioPic":
                 this.setState( {currSubDiv: subject.bioPic});
+                this.setState({currVideo: null});
                 break;
             case "reactPortfolio":
                 this.setState( {currSubDiv: subject.reactPortfolio});
+                this.setState({currVideo: null});
                 break;
             case "endHeyGuys":
                 this.setState( {currSubDiv: subject.endHeyGuys});
+                this.setState({currVideo: null});
                 break;
             case "checkoutThemes":
                 this.setState( {currSubDiv: subject.checkoutThemes});
+                this.setState({currVideo: null});
                 break;
             case "juggling":
                 this.setState( {currSubDiv: subject.juggling});
+                this.setState({currVideo: null});
                 break;
             default:
                 this.setState( {currSubDiv: null});
+                this.setState({currVideo: null});
         }
         //For debugging
         //console.log(this.state.currentSubject + " " + newSubject + " " + this.state.currSubDiv );
@@ -131,6 +148,7 @@ class AppTry extends Component {
     render() {
         return (
             <div>
+                {this.state.currVideo}
                 {/*TODO: remake all the items as functions (e.g., showTitleItem(), showLeftSideItems())*/}
                 {/*TODO: remake items as a list of items, rather than this more prescriptive way*/}
                 {/*Top row is a link for the Bio / a header*/}
