@@ -65,11 +65,11 @@ code {
  }
 
 #background-video{
-    height: 100%;
+    height: 75%;
     width: 100%;
     float: left;
     top: 0;
-    position: fixed; /* optional depending on what you want to do in your app */
+    position: absolute; /* optional depending on what you want to do in your app */
     z-index: -1;
 }
 

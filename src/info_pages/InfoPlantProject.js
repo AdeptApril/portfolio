@@ -6,8 +6,9 @@ export default class InfoPlantProject extends React.Component{
     render() {
         return (
             <div className="info-div">
-                <p className="paragraph-header">Intro</p>
+                <p className="paragraph-header">Intro and Video Explanation</p>
                 <p>April, as part of a team of three graduate students, created a remote plant watering system that allowed for monitoring and watering a plant from an iPhone app.</p>
+                <p>The video shows the iOS app with data from the plant. Then a 10-second watering is triggered, which happens, as seen through video from a webcam. The phone and plant were a couple of miles apart.</p>
                 <p className="paragraph-header">Deciding on the project</p>
                 <p>The team was given the task of finding an Internet of Things project, and whiteboarded several possible ideas.</p>
                 <p>The professor decided that making a remote plant watering system best fit the goals for the class.</p>

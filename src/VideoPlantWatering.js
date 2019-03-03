@@ -7,7 +7,7 @@ class VideoPlantWatering extends Component {
         super(props);
 
         this.state = {
-            videoURL: require('./images/PlantProjectBackgroundVideo_Small.mp4')
+            videoURL: require('./images/PortfolioPlantWatering.mp4')
         }
     }
 
