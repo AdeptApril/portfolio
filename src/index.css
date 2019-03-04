@@ -1,3 +1,10 @@
+/* Current known or possible issues:
+* Attempted use of grid display, but it's questionable whether it's doing anything at all
+* background-video placement depends on the image _also_ being in the div, and that's why there's the negative margins
+* On the topic of background-video, it's possible that things would work better if it were . instead of #
+*  (the latter is, I assume, because of being a video element class, but just switch one for the other breaks things)
+ */
+
 body {
   background-color: black;
   color: white;
@@ -15,9 +22,30 @@ code {
     monospace;
 }
 
-.row {
-  display:flex;
-  justify-content: center;
+.full_grid {
+    display: grid;
+}
+
+.row_1 {
+    grid-row: 1;
+    display: grid;
+    justify-content: center;
+}
+
+.row_2 {
+    grid-row: 2;
+    display: grid;
+    justify-content: center;
+}
+
+.row_2_left {
+    grid-row: 2;
+    grid-column: 1;
+}
+
+.row_2_right {
+    grid-row: 2;
+    grid-column: 3;
 }
 
 .bio-title {
@@ -52,9 +80,16 @@ code {
     text-decoration: underline;
 }
 
+.image-div, .center-img, .background-video {
+    grid-row: 2;
+    grid-column: 2;
+}
+
 .image-div {
-  border-radius: 50%;
+  border-radius: 30%;
     margin: 10pt;
+    height: 60vh;
+    width: 60vh;
   overflow: hidden;
 }
 
@@ -62,19 +97,24 @@ code {
    vertical-align: middle;
    height: 60vh;
    width: 60vh;
+    /*z-index: -1;*/
  }
 
+/*Not actually in the background at this point. Margins are due to being in the same div with an image, and other
+formatting not working to just have it be over the top*/
 #background-video{
-    height: 75%;
-    width: 100%;
-    float: left;
-    top: 0;
-    position: absolute; /* optional depending on what you want to do in your app */
-    z-index: -1;
+    vertical-align: middle;
+    width: 110vh;
+    margin-top: -62.5vh;
+    margin-left: -20vh;
+    /* float: left;*/
+    /* top: 0; */
+    /* position: absolute;  optional depending on what you want to do in your app */
+    /*z-index: 2;*/
 }
 
 .further-info {
-
+    grid-row: 3;
 }
 
 .info-div {

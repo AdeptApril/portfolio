@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b4fe8385-7cc4-4503-952f-e3b69a5e5be4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VideoPlantWatering.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/VideoPlantWatering.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/info_pages/InfoPlantProject.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/info_pages/InfoPlantProject.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,8 +23,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="71" column="22" selection-start-line="71" selection-start-column="22" selection-end-line="71" selection-end-column="22" />
+            <state relative-caret-position="884">
+              <caret line="103" selection-start-line="103" selection-end-line="103" />
             </state>
           </provider>
         </entry>
@@ -39,11 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-410">
-              <caret line="124" column="64" selection-start-line="124" selection-start-column="64" selection-end-line="124" selection-end-column="64" />
+            <state relative-caret-position="272">
+              <caret line="112" column="120" selection-start-line="112" selection-start-column="120" selection-end-line="112" selection-end-column="120" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -96,7 +95,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/info_pages/InfoPlantProject.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
@@ -132,6 +131,7 @@
       <find>showinfoon</find>
       <find>handlepicture</find>
       <find>subject.defaultBlank</find>
+      <find>display</find>
     </findStrings>
     <replaceStrings>
       <replace>let</replace>
@@ -164,10 +164,10 @@
         <option value="$PROJECT_DIR$/src/info_pages/InfoReactPortfolio.js" />
         <option value="$PROJECT_DIR$/src/info_pages/InfoJuggling.js" />
         <option value="$PROJECT_DIR$/src/info_pages/InfoEndHeyGuys.js" />
-        <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/VideoPlantWatering.js" />
-        <option value="$PROJECT_DIR$/src/index.css" />
         <option value="$PROJECT_DIR$/src/info_pages/InfoPlantProject.js" />
+        <option value="$PROJECT_DIR$/src/index.css" />
+        <option value="$PROJECT_DIR$/src/index.js" />
       </list>
     </option>
   </component>
@@ -294,7 +294,7 @@
       <workItem from="1550211154750" duration="18547000" />
       <workItem from="1550551871452" duration="15235000" />
       <workItem from="1550723275418" duration="16295000" />
-      <workItem from="1550977243955" duration="4684000" />
+      <workItem from="1550977243955" duration="13827000" />
     </task>
     <task id="LOCAL-00001" summary="First version, with some support files included">
       <created>1548786530466</created>
@@ -401,11 +401,18 @@
       <option name="project" value="LOCAL" />
       <updated>1550826418715</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="*Changed the video to being a background video only at the top, rather than constantly.&#10;*Added an explanation for the plant video">
+      <created>1551593633355</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1551593633355</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129929000" />
+    <option name="totallyTimeSpent" value="139072000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -418,6 +425,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49093905" visible="true" weight="0.24868283" />
       <window_info id="Structure" order="1" sideWeight="0.509061" side_tool="true" weight="0.25106382" />
@@ -513,7 +521,8 @@
     <MESSAGE value="*Changed className for the last row, as it was messing up the formatting&#10;*Changed name in this.state&#10;*Added some comments&#10;*Added basic text info to PlantProject and Bio&#10;*Added an additional line to Masters." />
     <MESSAGE value="*Added basic text info to EndHeyGuys, Juggling, and ReactPortfolio" />
     <MESSAGE value="*Added in a background video for plant watering" />
-    <option name="LAST_COMMIT_MESSAGE" value="*Added in a background video for plant watering" />
+    <MESSAGE value="*Changed the video to being a background video only at the top, rather than constantly.&#10;*Added an explanation for the plant video" />
+    <option name="LAST_COMMIT_MESSAGE" value="*Changed the video to being a background video only at the top, rather than constantly.&#10;*Added an explanation for the plant video" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Hello.js" />
@@ -581,13 +590,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
+    <entry file="file://$PROJECT_DIR$/src/info_pages/InfoPlantProject.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-410">
-          <caret line="124" column="64" selection-start-line="124" selection-start-column="64" selection-end-line="124" selection-end-column="64" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
@@ -600,15 +606,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="71" column="22" selection-start-line="71" selection-start-column="22" selection-end-line="71" selection-end-column="22" />
+        <state relative-caret-position="884">
+          <caret line="103" selection-start-line="103" selection-end-line="103" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/info_pages/InfoPlantProject.js">
+    <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="272">
+          <caret line="112" column="120" selection-start-line="112" selection-start-column="120" selection-end-line="112" selection-end-column="120" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

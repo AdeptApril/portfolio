@@ -110,7 +110,7 @@ class AppTry extends Component {
                 break;
             case "plantProject":
                 this.setState({currSubDiv: subject.plantProject});
-                this.setState({pic:null});
+                //this.setState({pic:null}); //Setting it to null messes up the spacing in Chrome, though not in Firefox
                 this.setState({currVideo: video.plantProject});
                 break;
             case "deutschTelekom":
@@ -147,12 +147,12 @@ class AppTry extends Component {
 
     render() {
         return (
-            <div>
-                {this.state.currVideo}
+            <div className="full_grid">
+                {/*this.state.currVideo*/}
                 {/*TODO: remake all the items as functions (e.g., showTitleItem(), showLeftSideItems())*/}
                 {/*TODO: remake items as a list of items, rather than this more prescriptive way*/}
                 {/*Top row is a link for the Bio / a header*/}
-                <div className="row">
+                <div className="row_1">
                     <div>
                         <p className="bio-title"
                             onMouseEnter={() => this.handlePictureChange("bioPic")}
@@ -162,8 +162,8 @@ class AppTry extends Component {
                     </div>
                 </div>
                 {/*This row has projects-left image-div projects-right. So general idea is list of projects around the center image*/}
-                <div className="row">
-                    <div>
+                <div className="row_2">
+                    <div className="row_2_left">
                         <p className="projects-left"
                             onMouseEnter={() => this.handlePictureChange("plantProject")}
                             onClick={() => this.showInfoOn("plantProject")}>
@@ -186,9 +186,10 @@ class AppTry extends Component {
                         </p>
                     </div>
                     <div className="image-div">
-                        <span><img className="center-img" alt="" src={this.state.pic}/></span>
+                        <div><span><img className="center-img" alt="" src={this.state.pic}/></span></div>
+                        <div>{this.state.currVideo}</div>
                     </div>
-                    <div>
+                    <div className="row_2_right">
                         <p className="projects-right"
                             onMouseEnter={() => this.handlePictureChange("loveStory")}
                             onClick={() => this.showInfoOn("loveStory")}>
