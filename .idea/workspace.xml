@@ -5,6 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/info_pages/InfoEndHeyGuys.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/info_pages/InfoEndHeyGuys.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,7 +25,7 @@
         <entry file="file://$PROJECT_DIR$/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="231">
-              <caret line="196" column="86" selection-start-line="196" selection-start-column="86" selection-end-line="196" selection-end-column="86" />
+              <caret line="196" column="160" selection-start-line="196" selection-start-column="160" selection-end-line="196" selection-end-column="160" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -35,17 +36,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/info_pages/InfoBio.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="168" selection-start-line="10" selection-start-column="168" selection-end-line="10" selection-end-column="168" />
+            <state relative-caret-position="414">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/info_pages/InfoLoveStory.js">
+        <entry file="file://$PROJECT_DIR$/src/info_pages/InfoCheckoutThemes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+            <state relative-caret-position="43">
+              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -81,15 +82,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/threejs/GeneralLights.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="8" selection-start-column="8" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/threejs/SceneSubject.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="115">
@@ -103,6 +95,24 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="460">
               <caret line="20" column="64" selection-start-line="20" selection-start-column="64" selection-end-line="20" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/info_pages/InfoEndHeyGuys.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/info_pages/InfoMasters.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="11" column="159" selection-start-line="11" selection-start-column="159" selection-end-line="11" selection-end-column="159" />
             </state>
           </provider>
         </entry>
@@ -132,6 +142,7 @@
       <find>color</find>
       <find>clear</find>
       <find>clea</find>
+      <find>the themes were</find>
     </findStrings>
     <replaceStrings>
       <replace>let</replace>
@@ -161,19 +172,19 @@
         <option value="$PROJECT_DIR$/src/info_pages/InfoDeutschTelekom.js" />
         <option value="$PROJECT_DIR$/src/info_pages/InfoMasters.js" />
         <option value="$PROJECT_DIR$/src/info_pages/InfoJuggling.js" />
-        <option value="$PROJECT_DIR$/src/info_pages/InfoEndHeyGuys.js" />
         <option value="$PROJECT_DIR$/src/VideoPlantWatering.js" />
         <option value="$PROJECT_DIR$/src/info_pages/InfoPlantProject.js" />
         <option value="$PROJECT_DIR$/src/info_pages/InfoReactPortfolio.js" />
         <option value="$PROJECT_DIR$/src/info_pages/InfoLoveStory.js" />
         <option value="$PROJECT_DIR$/src/threejs/threeEntryPoint.js" />
         <option value="$PROJECT_DIR$/src/ThreeContainer.js" />
-        <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/threejs/GeneralLights.js" />
         <option value="$PROJECT_DIR$/src/threejs/SceneSubject.js" />
         <option value="$PROJECT_DIR$/src/threejs/SceneManager.js" />
         <option value="$PROJECT_DIR$/src/index.css" />
         <option value="$PROJECT_DIR$/src/info_pages/InfoBio.js" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/info_pages/InfoEndHeyGuys.js" />
       </list>
     </option>
   </component>
@@ -304,7 +315,7 @@
       <workItem from="1552525422666" duration="1246000" />
       <workItem from="1552678840717" duration="10599000" />
       <workItem from="1555647881617" duration="589000" />
-      <workItem from="1555975542148" duration="6769000" />
+      <workItem from="1555975542148" duration="17319000" />
     </task>
     <task id="LOCAL-00001" summary="First version, with some support files included">
       <created>1548786530466</created>
@@ -446,11 +457,25 @@
       <option name="project" value="LOCAL" />
       <updated>1555990498430</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="*Random commit to test git">
+      <created>1556256917022</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1556256917022</updated>
+    </task>
+    <task id="LOCAL-00022" summary="*Further reworked and expanded the Bio page.">
+      <created>1556328231753</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1556328231753</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="168033000" />
+    <option name="totallyTimeSpent" value="178583000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -463,10 +488,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1932" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48241207" visible="true" weight="0.24920802" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4832776" visible="true" weight="0.24920802" />
       <window_info id="Structure" order="1" sideWeight="0.5112903" side_tool="true" weight="0.24868283" />
-      <window_info id="npm" order="2" sideWeight="0.51758796" side_tool="true" visible="true" weight="0.24920802" />
+      <window_info id="npm" order="2" sideWeight="0.5167224" side_tool="true" visible="true" weight="0.24920802" />
       <window_info id="Favorites" order="3" side_tool="true" weight="0.32978722" />
       <window_info id="Designer" order="4" />
       <window_info id="Image Layers" order="5" />
@@ -474,7 +500,7 @@
       <window_info id="UI Designer" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4994681" weight="0.32928178" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.487882" weight="0.34225196" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4873284" weight="0.3412162" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -482,9 +508,9 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.49788806" weight="0.32882884" />
       <window_info anchor="bottom" id="File Transfer" order="9" sideWeight="0.49367756" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="10" sideWeight="0.49208024" visible="true" weight="0.3277027" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5079197" side_tool="true" visible="true" weight="0.3277027" />
-      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.4846885" weight="0.3265766" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49208024" weight="0.3277027" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5158395" side_tool="true" visible="true" weight="0.3265766" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.4841605" visible="true" weight="0.3265766" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -563,7 +589,9 @@
     <MESSAGE value="*Updated the Portfolio site image to the next version" />
     <MESSAGE value="*Added a paragraph to the page about the portfolio site.&#10;*May be adding three.js links, but unintentionally, if so. Future feature not fully implemented, yet." />
     <MESSAGE value="*Slightly reworked and expanded the Bio page." />
-    <option name="LAST_COMMIT_MESSAGE" value="*Slightly reworked and expanded the Bio page." />
+    <MESSAGE value="*Random commit to test git" />
+    <MESSAGE value="*Further reworked and expanded the Bio page." />
+    <option name="LAST_COMMIT_MESSAGE" value="*Further reworked and expanded the Bio page." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Hello.js" />
@@ -574,20 +602,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/InfoDefaultBlank.js" />
-    <entry file="file://$PROJECT_DIR$/src/info_pages/InfoCheckoutThemes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/info_pages/InfoMasters.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="159" selection-start-line="11" selection-start-column="159" selection-end-line="11" selection-end-column="159" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/VideoPlantWatering.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -599,13 +613,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="10" column="319" selection-start-line="10" selection-start-column="319" selection-end-line="10" selection-end-column="319" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/info_pages/InfoEndHeyGuys.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -637,20 +644,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/info_pages/InfoDeutschTelekom.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="20" column="64" selection-start-line="20" selection-start-column="64" selection-end-line="20" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/info_pages/InfoBio.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="168" selection-start-line="10" selection-start-column="168" selection-end-line="10" selection-end-column="168" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
@@ -662,16 +655,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="196" column="86" selection-start-line="196" selection-start-column="86" selection-end-line="196" selection-end-column="86" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -703,6 +686,51 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/info_pages/InfoDeutschTelekom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="20" column="64" selection-start-line="20" selection-start-column="64" selection-end-line="20" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/info_pages/InfoCheckoutThemes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/info_pages/InfoBio.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="196" column="160" selection-start-line="196" selection-start-column="160" selection-end-line="196" selection-end-column="160" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/info_pages/InfoMasters.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="159" selection-start-line="11" selection-start-column="159" selection-end-line="11" selection-end-column="159" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/info_pages/InfoEndHeyGuys.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
         </state>
       </provider>
     </entry>
