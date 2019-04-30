@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 import './index.css';
+import ThreeContainer from './ThreeContainer.js';
 import InfoLoveStory from './info_pages/InfoLoveStory.js';
 import InfoMasters from './info_pages/InfoMasters.js';
 import InfoCheckoutThemes from './info_pages/InfoCheckoutThemes';
@@ -193,7 +194,10 @@ class AppTry extends Component {
                         <p className="projects-right"
                             onMouseEnter={() => this.handlePictureChange("loveStory")}
                             onClick={() => this.showInfoOn("loveStory")}>
+                            <span className="three-object">{<ThreeContainer />}</span>
+                            <div className="project-text">
                             Love Story Real-Time Demo
+                            </div>
                         </p>
                         <p className="projects-right"
                             onMouseEnter={() => this.handlePictureChange("diploma")}
@@ -225,4 +229,5 @@ class AppTry extends Component {
     }
 }
 
+//render(<AppTry />, document.getElementById('root'));
 render(<AppTry />, document.getElementById('root'));
