@@ -21,6 +21,9 @@ export default class InfoLoveStory extends React.Component{
                 <p>After that, it was a matter of making (and revising) until the release at the party.</p>
                 <p>She was the primary coder, and did all of the sound effects and music (including timing said effects and music to the visuals).</p>
                 <p>She also worked with Dusty in determining what 3D models would be needed to best tell the story, and directed Dusty on how to code sub-projects.</p>
+                <p className="paragraph-header">See the demo</p>
+                <p><a href="https://www.youtube.com/watch?v=LpUMWNv9BRo">Watch it on Youtube!</a></p>
+                <p>Do "like" the video, too.</p>
             </div>
         )
     }
