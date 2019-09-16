@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b4fe8385-7cc4-4503-952f-e3b69a5e5be4" name="Default Changelist" comment="">
+    <list default="true" id="b4fe8385-7cc4-4503-952f-e3b69a5e5be4" name="Default Changelist" comment="* Added a section for the Pirate Talk page">
+      <change afterPath="$PROJECT_DIR$/src/info_pages/InfoPirateTalk.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/info_pages/InfoLoveStory.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/info_pages/InfoLoveStory.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,10 +21,24 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="7" selection-start-line="4" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="192" column="23" lean-forward="true" selection-start-line="192" selection-start-column="23" selection-end-line="192" selection-end-column="23" />
+            <state relative-caret-position="337">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -32,57 +47,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ThreeContainer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-              <folding>
-                <element signature="e#94#135#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/info_pages/InfoLoveStory.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/threejs/SceneManager.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-247">
-              <caret line="46" column="10" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
-              <folding>
-                <element signature="e#94#125#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/threejs/GeneralLights.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="56" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/threejs/threeEntryPoint.js">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="7" column="78" selection-start-line="7" selection-start-column="78" selection-end-line="7" selection-end-column="78" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/info_pages/InfoBio.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/threejs/SceneSubject.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="39" />
+            <state relative-caret-position="851">
+              <caret line="37" column="23" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="23" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -93,7 +79,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/info_pages/InfoReactPortfolio.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
+            <state relative-caret-position="253">
               <caret line="11" column="122" selection-start-line="11" selection-start-column="122" selection-end-line="11" selection-end-column="122" />
             </state>
           </provider>
@@ -102,7 +88,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/info_pages/InfoCheckoutThemes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
+            <state relative-caret-position="1357">
               <caret line="59" column="172" selection-start-line="59" selection-start-column="172" selection-end-line="59" selection-end-column="172" />
             </state>
           </provider>
@@ -112,7 +98,16 @@
         <entry file="file://$PROJECT_DIR$/src/info_pages/InfoMasters.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="253">
-              <caret line="11" column="159" selection-start-line="11" selection-start-column="159" selection-end-line="11" selection-end-column="159" />
+              <caret line="11" column="159" selection-end-line="16" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/info_pages/InfoPirateTalk.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="11" column="70" selection-start-line="11" selection-start-column="70" selection-end-line="11" selection-end-column="70" />
             </state>
           </provider>
         </entry>
@@ -147,6 +142,11 @@
       <find>mouse</find>
       <find>dusty</find>
       <find>newcom</find>
+      <find>image</find>
+      <find>class</find>
+      <find>showinfoOn</find>
+      <find>body</find>
+      <find>bind</find>
     </findStrings>
     <replaceStrings>
       <replace>let</replace>
@@ -178,24 +178,25 @@
         <option value="$PROJECT_DIR$/src/info_pages/InfoJuggling.js" />
         <option value="$PROJECT_DIR$/src/VideoPlantWatering.js" />
         <option value="$PROJECT_DIR$/src/info_pages/InfoPlantProject.js" />
-        <option value="$PROJECT_DIR$/src/index.css" />
         <option value="$PROJECT_DIR$/src/info_pages/InfoBio.js" />
         <option value="$PROJECT_DIR$/src/info_pages/InfoEndHeyGuys.js" />
         <option value="$PROJECT_DIR$/src/threejs/SceneManager.js" />
         <option value="$PROJECT_DIR$/src/threejs/GeneralLights.js" />
         <option value="$PROJECT_DIR$/src/threejs/SceneSubject.js" />
-        <option value="$PROJECT_DIR$/src/threejs/threeEntryPoint.js" />
         <option value="$PROJECT_DIR$/src/ThreeContainer.js" />
-        <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/info_pages/InfoReactPortfolio.js" />
         <option value="$PROJECT_DIR$/src/info_pages/InfoCheckoutThemes.js" />
         <option value="$PROJECT_DIR$/src/info_pages/InfoLoveStory.js" />
+        <option value="$PROJECT_DIR$/src/threejs/threeEntryPoint.js" />
+        <option value="$PROJECT_DIR$/src/index.css" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/info_pages/InfoPirateTalk.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="width" value="1932" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="953" />
+    <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -204,7 +205,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -244,6 +244,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
     </panes>
@@ -251,10 +252,13 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="C:/Program Files/node-v10.14.2-win-x64/node.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../LearningTranslator" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="C:\code\portfolio\node_modules\eslint" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -326,7 +330,18 @@
       <workItem from="1552525422666" duration="1246000" />
       <workItem from="1552678840717" duration="10599000" />
       <workItem from="1555647881617" duration="589000" />
-      <workItem from="1555975542148" duration="55639000" />
+      <workItem from="1555975542148" duration="58281000" />
+      <workItem from="1557163712076" duration="71000" />
+      <workItem from="1557981023342" duration="1154000" />
+      <workItem from="1558072650646" duration="1816000" />
+      <workItem from="1564261523624" duration="6422000" />
+      <workItem from="1564335905844" duration="605000" />
+      <workItem from="1564337093445" duration="606000" />
+      <workItem from="1564340640973" duration="631000" />
+      <workItem from="1564342414666" duration="159000" />
+      <workItem from="1567926834059" duration="1266000" />
+      <workItem from="1568349348578" duration="3265000" />
+      <workItem from="1568493164368" duration="2169000" />
     </task>
     <task id="LOCAL-00001" summary="First version, with some support files included">
       <created>1548786530466</created>
@@ -503,11 +518,25 @@
       <option name="project" value="LOCAL" />
       <updated>1556927214478</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="* Added additional info to the CheckoutThemes page -- mostly just a link to the youtube video">
+      <created>1556945194903</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1556945194903</updated>
+    </task>
+    <task id="LOCAL-00027" summary="* Added MIT license, as specified in the place where I got the base code from.">
+      <created>1556949830596</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1556949830596</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="216903000" />
+    <option name="totallyTimeSpent" value="239646000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -519,10 +548,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1932" height="1047" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48376068" visible="true" weight="0.24920802" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48376068" visible="true" weight="0.24868283" />
       <window_info id="Structure" order="1" sideWeight="0.51623935" side_tool="true" weight="0.24920802" />
       <window_info id="npm" order="2" sideWeight="0.51623935" side_tool="true" weight="0.24920802" />
       <window_info id="Favorites" order="3" sideWeight="0.51623935" side_tool="true" weight="0.24920802" />
@@ -532,17 +561,17 @@
       <window_info id="UI Designer" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4994681" weight="0.32928178" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.47940865" weight="0.3412162" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4789252" weight="0.3411371" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49472016" weight="0.3277027" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.49419218" weight="0.32882884" />
+      <window_info active="true" anchor="bottom" id="Messages" order="8" sideWeight="0.49315068" visible="true" weight="0.3277592" />
       <window_info anchor="bottom" id="File Transfer" order="9" sideWeight="0.49367756" weight="0.32936078" />
       <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49155226" weight="0.3277027" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5221753" side_tool="true" visible="true" weight="0.3265766" />
-      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.47782472" visible="true" weight="0.3265766" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5068493" side_tool="true" visible="true" weight="0.3277592" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.471549" weight="0.32552955" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -602,8 +631,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/portfolio" />
     </ignored-roots>
-    <MESSAGE value="First version, with some support files included" />
-    <MESSAGE value="*Adding additional pictures&#10;*Some additional CSS classes (for the title, and differentiating between right and left of the picture)&#10;*Changed default pic&#10;*Removed commented-out code from an earlier, unsuccessful attempt&#10;*Renamed some of the project titles" />
     <MESSAGE value="*Added three more projects&#10;*Changed a set of if statements to a switch&#10;*Added a bit of space around the image" />
     <MESSAGE value="*Added &quot;showInfoOn&quot;, with a stub file for LoveStory, which will eventually display additional info about that project (with other projects to follow)&#10;*Added an onClick action for LoveStory&#10;*Added a row for the additional info" />
     <MESSAGE value="*First version of text for the LoveStory click" />
@@ -626,7 +653,10 @@
     <MESSAGE value="* Expanded info on the End Hey Guys project" />
     <MESSAGE value="* Added a rotating unicorn to Love Story Real-Time Demo&#10;* This includes all sorts of Three.js items, but currently has the unicorn always on screen." />
     <MESSAGE value="* Added additional info to the CheckoutThemes page&#10;* Added additional info to the portfolio page" />
-    <option name="LAST_COMMIT_MESSAGE" value="* Added additional info to the CheckoutThemes page&#10;* Added additional info to the portfolio page" />
+    <MESSAGE value="* Added additional info to the CheckoutThemes page -- mostly just a link to the youtube video" />
+    <MESSAGE value="* Added MIT license, as specified in the place where I got the base code from." />
+    <MESSAGE value="* Added a section for the Pirate Talk page" />
+    <option name="LAST_COMMIT_MESSAGE" value="* Added a section for the Pirate Talk page" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Hello.js" />
@@ -634,24 +664,89 @@
     <entry file="file://$PROJECT_DIR$/src/logo.svg" />
     <entry file="file://$PROJECT_DIR$/src/serviceWorker.js" />
     <entry file="file://$PROJECT_DIR$/src/InfoDefaultBlank.js" />
-    <entry file="file://$PROJECT_DIR$/src/VideoPlantWatering.js">
+    <entry file="file://$PROJECT_DIR$/src/VideoPlantWatering.js" />
+    <entry file="file://$PROJECT_DIR$/src/info_pages/InfoDeutschTelekom.js" />
+    <entry file="file://$PROJECT_DIR$/src/info_pages/InfoEndHeyGuys.js" />
+    <entry file="file://$PROJECT_DIR$/src/info_pages/InfoJuggling.js" />
+    <entry file="file://$PROJECT_DIR$/src/info_pages/InfoPlantProject.js" />
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/three.js" />
+    <entry file="file://$PROJECT_DIR$/src/threejs/SceneManager.js" />
+    <entry file="file://$PROJECT_DIR$/src/threejs/GeneralLights.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="9" column="66" selection-start-line="9" selection-start-column="66" selection-end-line="9" selection-end-column="66" />
+        <state relative-caret-position="92">
+          <caret line="4" column="56" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.css">
+    <entry file="file://$PROJECT_DIR$/src/ThreeContainer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1220">
-          <caret line="107" column="21" selection-start-line="107" selection-start-column="21" selection-end-line="107" selection-end-column="21" />
+        <state relative-caret-position="230">
+          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/info_pages/InfoLoveStory.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        <state relative-caret-position="690">
+          <caret line="30" column="66" selection-start-line="30" selection-start-column="66" selection-end-line="30" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="51" column="17" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="7" selection-start-line="4" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/threejs/threeEntryPoint.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="78" selection-start-line="7" selection-start-column="78" selection-end-line="7" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/threejs/SceneSubject.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="851">
+          <caret line="37" column="23" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/info_pages/InfoReactPortfolio.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="122" selection-start-line="11" selection-start-column="122" selection-end-line="11" selection-end-column="122" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/info_pages/InfoCheckoutThemes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1357">
+          <caret line="59" column="172" selection-start-line="59" selection-start-column="172" selection-end-line="59" selection-end-column="172" />
         </state>
       </provider>
     </entry>
@@ -662,128 +757,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/info_pages/InfoDeutschTelekom.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="20" column="64" selection-start-line="20" selection-start-column="64" selection-end-line="20" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/info_pages/InfoEndHeyGuys.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/info_pages/InfoJuggling.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/info_pages/InfoPlantProject.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/three.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/threejs/SceneManager.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-247">
-          <caret line="46" column="10" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
-          <folding>
-            <element signature="e#94#125#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/threejs/GeneralLights.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="56" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/threejs/threeEntryPoint.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ThreeContainer.js">
+    <entry file="file://$PROJECT_DIR$/src/info_pages/InfoMasters.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
-          <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-          <folding>
-            <element signature="e#94#135#0" expanded="true" />
-          </folding>
+          <caret line="11" column="159" selection-end-line="16" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="192" column="23" lean-forward="true" selection-start-line="192" selection-start-column="23" selection-end-line="192" selection-end-column="23" />
+        <state relative-caret-position="337">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/threejs/SceneSubject.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/info_pages/InfoReactPortfolio.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="11" column="122" selection-start-line="11" selection-start-column="122" selection-end-line="11" selection-end-column="122" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/info_pages/InfoCheckoutThemes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="59" column="172" selection-start-line="59" selection-start-column="172" selection-end-line="59" selection-end-column="172" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/info_pages/InfoMasters.js">
+    <entry file="file://$PROJECT_DIR$/src/info_pages/InfoPirateTalk.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
-          <caret line="11" column="159" selection-start-line="11" selection-start-column="159" selection-end-line="11" selection-end-column="159" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/info_pages/InfoLoveStory.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
+          <caret line="11" column="70" selection-start-line="11" selection-start-column="70" selection-end-line="11" selection-end-column="70" />
         </state>
       </provider>
     </entry>
