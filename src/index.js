@@ -21,7 +21,7 @@ const pics = {
     plantProject: require('./images/PlantProjectVideoThumbnail_Square.png'),
     deutschTelekom: require('./images/XGM_Square.png'),
     bioPic: require('./images/AprilWithSkeleton_Square.jpg'),
-    reactPortfolio: require('./images/PortfolioV5_Square.png'),
+    reactPortfolio: require('./images/PortfolioV6_Square.png'),
     endHeyGuys: require('./images/end_hey_guys_Square.png'),
     checkoutThemes: require('./images/StorybookScanItem_Square.jpg'),
     juggling: require('./images/juggling_Square.jpg'),
