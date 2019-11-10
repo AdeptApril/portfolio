@@ -20,7 +20,7 @@ const pics = {
     diploma: require('./images/AprilMastersDiploma_Square.jpeg'),
     plantProject: require('./images/PlantProjectVideoThumbnail_Square.png'),
     deutschTelekom: require('./images/XGM_Square.png'),
-    bioPic: require('./images/AprilWithSkeleton_Square.jpg'),
+    bioPic: require('./images/AprilChevronDress_Square.png'),
     reactPortfolio: require('./images/PortfolioV6_Square.png'),
     endHeyGuys: require('./images/end_hey_guys_Square.png'),
     checkoutThemes: require('./images/StorybookScanItem_Square.jpg'),
