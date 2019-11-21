@@ -13,6 +13,7 @@ import InfoPlantProject from './info_pages/InfoPlantProject';
 import InfoReactPortfolio from './info_pages/InfoReactPortfolio';
 import InfoPirateTalk from './info_pages/InfoPirateTalk';
 import VideoPlantWatering from "./VideoPlantWatering";
+import InfoHackChefJaz from "./info_pages/InfoHackChefJaz";
 
 
 const pics = {
@@ -25,7 +26,8 @@ const pics = {
     endHeyGuys: require('./images/end_hey_guys_Square.png'),
     checkoutThemes: require('./images/StorybookScanItem_Square.jpg'),
     juggling: require('./images/juggling_Square.jpg'),
-    pirateTalk: require( './images/PirateTalk_Square.jpg')
+    pirateTalk: require( './images/PirateTalk_Square.jpg'),
+    hackChefJaz: require('./images/ChefJazHome_Square.png')
 };
 
 const subject = {
@@ -38,7 +40,8 @@ const subject = {
     juggling: <InfoJuggling />,
     plantProject: <InfoPlantProject />,
     reactPortfolio: <InfoReactPortfolio />,
-    pirateTalk: <InfoPirateTalk />
+    pirateTalk: <InfoPirateTalk />,
+    hackChefJaz: <InfoHackChefJaz />
 };
 
     const video = {
@@ -96,6 +99,9 @@ class AppTry extends Component {
             case "juggling":
                 this.setState( {pic:pics.juggling});
                 break;
+            case "hackChefJaz":
+                this.setState( {pic:pics.hackChefJaz});
+                break;
             default:
                 this.setState( {pic:pics.bioPic});
         }
@@ -149,6 +155,10 @@ class AppTry extends Component {
                 this.setState( {currSubDiv: subject.pirateTalk});
                 this.setState({currVideo: null});
                 break;
+            case "hackChefJaz":
+                this.setState( {currSubDiv: subject.hackChefJaz});
+                this.setState({currVideo: null});
+                break;
             default:
                 this.setState( {currSubDiv: null});
                 this.setState({currVideo: null});
@@ -190,6 +200,11 @@ class AppTry extends Component {
                             onMouseEnter={() => this.handlePictureChange("endHeyGuys")}
                             onClick={() => this.showInfoOn("endHeyGuys")}>
                             Hackathon Project: End Hey Guys
+                        </p>
+                        <p className="projects-left"
+                           onMouseEnter={() => this.handlePictureChange("hackChefJaz")}
+                           onClick={() => this.showInfoOn("hackChefJaz")}>
+                            Hackathon Project: Chef Jaz
                         </p>
                         <p className="projects-left"
                            onMouseEnter={() => this.handlePictureChange("pirateTalk")}
