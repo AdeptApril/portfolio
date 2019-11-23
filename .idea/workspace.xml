@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b4fe8385-7cc4-4503-952f-e3b69a5e5be4" name="Default Changelist" comment="* Added a page for the Chef Jaz Hackathon&#10;* Added an image for that Hackathon&#10;* Added the new profile image for the Bio page">
-      <change afterPath="$PROJECT_DIR$/src/images/PortfolioV8_Square.png" afterDir="false" />
+    <list default="true" id="b4fe8385-7cc4-4503-952f-e3b69a5e5be4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/images/bacteria_eye.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/info_pages/InfoHackCoolEye.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
@@ -20,16 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App.css">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="24" column="63" lean-forward="true" selection-start-line="24" selection-start-column="63" selection-end-line="24" selection-end-column="63" />
+            <state relative-caret-position="425">
+              <caret line="222" column="55" selection-start-line="222" selection-start-column="55" selection-end-line="222" selection-end-column="55" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -98,7 +94,16 @@
         <entry file="file://$PROJECT_DIR$/src/info_pages/InfoHackChefJaz.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="282">
-              <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+              <caret line="15" column="16" selection-end-line="21" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/info_pages/InfoHackCoolEye.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -192,6 +197,7 @@
         <option value="$PROJECT_DIR$/src/info_pages/InfoPirateTalk.js" />
         <option value="$PROJECT_DIR$/src/info_pages/InfoMasters.js" />
         <option value="$PROJECT_DIR$/src/info_pages/InfoHackChefJaz.js" />
+        <option value="$PROJECT_DIR$/src/info_pages/InfoHackCoolEye.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
       </list>
     </option>
@@ -275,6 +281,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\code\portfolio\src\images" />
       <recent name="C:\code\portfolio\src\info_pages" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -355,7 +362,7 @@
       <workItem from="1568493164368" duration="4987000" />
       <workItem from="1568866958710" duration="1219000" />
       <workItem from="1573024033191" duration="8538000" />
-      <workItem from="1574316106044" duration="4206000" />
+      <workItem from="1574316106044" duration="5870000" />
     </task>
     <task id="LOCAL-00001" summary="First version, with some support files included">
       <created>1548786530466</created>
@@ -581,11 +588,18 @@
       <option name="project" value="LOCAL" />
       <updated>1574321378908</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="* Added PortfolioV8 image&#10;* Updated React Portfolio Site preview image to go to the V7 image">
+      <created>1574404492631</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1574404492631</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="256427000" />
+    <option name="totallyTimeSpent" value="258091000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -680,7 +694,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/portfolio" />
     </ignored-roots>
-    <MESSAGE value="*Created file and made basic stub for info on the masters degree&#10;*Added a basic javadoc-style comment to the Info classes&#10;*Changed the className from furtherInfo to further-info to better fit the CSS naming convention&#10;*Added a spot in CSS for future refinement on how further-info is shown" />
     <MESSAGE value="*Adding pictures to git that are already in use&#10;*Adding version 4 of the portfolio picture" />
     <MESSAGE value="*Created and added basic story to the InfoCheckoutThemes file&#10;*Added &quot;onClick&quot; actions for all links (which also clears out the added info, if there isn't any)&#10;*Added a CSS variable for the info divs&#10;*removed the hideSubject() method, as it didn't seem to have any use.&#10;*Added a couple of comments on what's going on in each row." />
     <MESSAGE value="*Moved info pages into their own directory&#10;*Added stub pages for the six other currently-mentioned projects" />
@@ -705,7 +718,8 @@
     <MESSAGE value="* Updated Bio picture and corrected the info that said UW-Madison instead of UW-Platteville for the masters" />
     <MESSAGE value="* Updated packages" />
     <MESSAGE value="* Added a page for the Chef Jaz Hackathon&#10;* Added an image for that Hackathon&#10;* Added the new profile image for the Bio page" />
-    <option name="LAST_COMMIT_MESSAGE" value="* Added a page for the Chef Jaz Hackathon&#10;* Added an image for that Hackathon&#10;* Added the new profile image for the Bio page" />
+    <MESSAGE value="* Added PortfolioV8 image&#10;* Updated React Portfolio Site preview image to go to the V7 image" />
+    <option name="LAST_COMMIT_MESSAGE" value="* Added PortfolioV8 image&#10;* Updated React Portfolio Site preview image to go to the V7 image" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Hello.js" />
@@ -823,14 +837,21 @@
     <entry file="file://$PROJECT_DIR$/src/info_pages/InfoHackChefJaz.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="282">
-          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+          <caret line="15" column="16" selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/info_pages/InfoHackCoolEye.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="24" column="63" lean-forward="true" selection-start-line="24" selection-start-column="63" selection-end-line="24" selection-end-column="63" />
+        <state relative-caret-position="425">
+          <caret line="222" column="55" selection-start-line="222" selection-start-column="55" selection-end-line="222" selection-end-column="55" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
