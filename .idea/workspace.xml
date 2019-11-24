@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4fe8385-7cc4-4503-952f-e3b69a5e5be4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/images/bacteria_eye.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/info_pages/InfoHackCoolEye.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -24,8 +23,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="222" column="55" selection-start-line="222" selection-start-column="55" selection-end-line="222" selection-end-column="55" />
+            <state relative-caret-position="135">
+              <caret line="254" column="65" selection-start-line="254" selection-start-column="65" selection-end-line="254" selection-end-column="65" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -34,10 +33,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/threejs/threeEntryPoint.js">
+        <entry file="file://$PROJECT_DIR$/src/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="78" selection-start-line="7" selection-start-column="78" selection-end-line="7" selection-end-column="78" />
+            <state relative-caret-position="369">
+              <caret line="46" column="15" selection-start-line="46" selection-start-column="15" selection-end-line="46" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -153,6 +152,7 @@
       <find>body</find>
       <find>bind</find>
       <find>University of Wisconsin-Madison</find>
+      <find>componentwil</find>
     </findStrings>
     <replaceStrings>
       <replace>let</replace>
@@ -193,11 +193,11 @@
         <option value="$PROJECT_DIR$/src/info_pages/InfoCheckoutThemes.js" />
         <option value="$PROJECT_DIR$/src/info_pages/InfoLoveStory.js" />
         <option value="$PROJECT_DIR$/src/threejs/threeEntryPoint.js" />
-        <option value="$PROJECT_DIR$/src/index.css" />
         <option value="$PROJECT_DIR$/src/info_pages/InfoPirateTalk.js" />
         <option value="$PROJECT_DIR$/src/info_pages/InfoMasters.js" />
         <option value="$PROJECT_DIR$/src/info_pages/InfoHackChefJaz.js" />
         <option value="$PROJECT_DIR$/src/info_pages/InfoHackCoolEye.js" />
+        <option value="$PROJECT_DIR$/src/index.css" />
         <option value="$PROJECT_DIR$/src/index.js" />
       </list>
     </option>
@@ -362,7 +362,7 @@
       <workItem from="1568493164368" duration="4987000" />
       <workItem from="1568866958710" duration="1219000" />
       <workItem from="1573024033191" duration="8538000" />
-      <workItem from="1574316106044" duration="5870000" />
+      <workItem from="1574316106044" duration="8455000" />
     </task>
     <task id="LOCAL-00001" summary="First version, with some support files included">
       <created>1548786530466</created>
@@ -595,11 +595,18 @@
       <option name="project" value="LOCAL" />
       <updated>1574404492631</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="* Added Hackathon: CoolEye page, and linked all the necessary things in the necessary places">
+      <created>1574486734690</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1574486734690</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="258091000" />
+    <option name="totallyTimeSpent" value="260676000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -624,7 +631,7 @@
       <window_info id="UI Designer" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4994681" weight="0.32928178" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.47629082" weight="0.3411371" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.47576398" visible="true" weight="0.3411371" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -633,8 +640,8 @@
       <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.49315068" weight="0.3277592" />
       <window_info anchor="bottom" id="File Transfer" order="9" sideWeight="0.49367756" weight="0.32936078" />
       <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49155226" weight="0.3277027" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.53477347" side_tool="true" visible="true" weight="0.32552955" />
-      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.46522656" visible="true" weight="0.32552955" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.524236" side_tool="true" visible="true" weight="0.3411371" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.46522656" weight="0.32552955" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -694,7 +701,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/portfolio" />
     </ignored-roots>
-    <MESSAGE value="*Adding pictures to git that are already in use&#10;*Adding version 4 of the portfolio picture" />
     <MESSAGE value="*Created and added basic story to the InfoCheckoutThemes file&#10;*Added &quot;onClick&quot; actions for all links (which also clears out the added info, if there isn't any)&#10;*Added a CSS variable for the info divs&#10;*removed the hideSubject() method, as it didn't seem to have any use.&#10;*Added a couple of comments on what's going on in each row." />
     <MESSAGE value="*Moved info pages into their own directory&#10;*Added stub pages for the six other currently-mentioned projects" />
     <MESSAGE value="*Added basic story to the Deutsch Telekom info page&#10;*Added connections to the previously-created (but not filled out) Info files" />
@@ -719,7 +725,8 @@
     <MESSAGE value="* Updated packages" />
     <MESSAGE value="* Added a page for the Chef Jaz Hackathon&#10;* Added an image for that Hackathon&#10;* Added the new profile image for the Bio page" />
     <MESSAGE value="* Added PortfolioV8 image&#10;* Updated React Portfolio Site preview image to go to the V7 image" />
-    <option name="LAST_COMMIT_MESSAGE" value="* Added PortfolioV8 image&#10;* Updated React Portfolio Site preview image to go to the V7 image" />
+    <MESSAGE value="* Added Hackathon: CoolEye page, and linked all the necessary things in the necessary places" />
+    <option name="LAST_COMMIT_MESSAGE" value="* Added Hackathon: CoolEye page, and linked all the necessary things in the necessary places" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Hello.js" />
@@ -762,13 +769,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
           <caret line="30" column="66" selection-start-line="30" selection-start-column="66" selection-end-line="30" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
-          <caret line="51" column="17" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -848,10 +848,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="46" column="15" selection-start-line="46" selection-start-column="15" selection-end-line="46" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="222" column="55" selection-start-line="222" selection-start-column="55" selection-end-line="222" selection-end-column="55" />
+        <state relative-caret-position="135">
+          <caret line="254" column="65" selection-start-line="254" selection-start-column="65" selection-end-line="254" selection-end-column="65" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>

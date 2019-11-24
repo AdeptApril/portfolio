@@ -43,6 +43,11 @@ code {
     grid-column: 1;
 }
 
+.row_2_left_append {
+    grid-row: 3;
+    grid-column: 1;
+}
+
 .row_2_right {
     grid-row: 2;
     grid-column: 3;

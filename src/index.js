@@ -16,7 +16,6 @@ import VideoPlantWatering from "./VideoPlantWatering";
 import InfoHackChefJaz from "./info_pages/InfoHackChefJaz";
 import InfoHackCoolEye from "./info_pages/InfoHackCoolEye";
 
-
 const pics = {
     loveStory: require('./images/LoveStoryScreenshot_Square.png'),
     diploma: require('./images/AprilMastersDiploma_Square.jpeg'),
@@ -63,9 +62,22 @@ class AppTry extends Component {
             pic: pics.bioPic, //The links to the various included pictures
             currentSubject: "", //The string for the name of the current Info subject (May not be needed)
             currSubDiv: null, //Which subject to be showing additional info about.
-            currVideo: null
+            currVideo: null,
+            width: window.innerWidth
         };
     }
+
+    componentWillMount() {
+        window.addEventListener('resize', this.handleWindowSizeChange);
+    }
+
+    componentWillUnmount() {
+        window.removeEventListener('resize', this.handleWindowSizeChange);
+    }
+
+    handleWindowSizeChange = () => {
+        this.setState({width: window.innerWidth});
+    };
 
     //This should be called when the center picture should be changed.
     //As of this writing, it's when the pointer hovers over a given link.
@@ -178,6 +190,8 @@ class AppTry extends Component {
     }
 
     render() {
+        const { width } = this.state;
+        const isMobile = width <= 500;
         return (
             <div className="full_grid">
                 {/*this.state.currVideo*/}
@@ -238,7 +252,7 @@ class AppTry extends Component {
                         <div><span><img className="center-img" alt="" src={this.state.pic}/></span></div>
                         <div>{this.state.currVideo}</div>
                     </div>
-                    <div className="row_2_right">
+                    <div className={isMobile ? "row_2_left_append" : "row_2_right"}>
                         <p className="projects-right"
                             onMouseEnter={() => this.handlePictureChange("loveStory")}
                             onClick={() => this.showInfoOn("loveStory")}>
