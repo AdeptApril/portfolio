@@ -23,8 +23,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="254" column="65" selection-start-line="254" selection-start-column="65" selection-end-line="254" selection-end-column="65" />
+            <state relative-caret-position="296">
+              <caret line="254" column="131" selection-start-line="254" selection-start-column="131" selection-end-line="254" selection-end-column="131" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -35,8 +35,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="46" column="15" selection-start-line="46" selection-start-column="15" selection-end-line="46" selection-end-column="15" />
+            <state relative-caret-position="622">
+              <caret line="57" column="63" selection-start-line="57" selection-start-column="63" selection-end-line="57" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -362,7 +362,7 @@
       <workItem from="1568493164368" duration="4987000" />
       <workItem from="1568866958710" duration="1219000" />
       <workItem from="1573024033191" duration="8538000" />
-      <workItem from="1574316106044" duration="8455000" />
+      <workItem from="1574316106044" duration="9627000" />
     </task>
     <task id="LOCAL-00001" summary="First version, with some support files included">
       <created>1548786530466</created>
@@ -602,11 +602,18 @@
       <option name="project" value="LOCAL" />
       <updated>1574486734690</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="* Made the right column be appended after the left column if width is below a certain number (which would be common on mobile">
+      <created>1574580598127</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1574580598127</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="260676000" />
+    <option name="totallyTimeSpent" value="261848000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -701,7 +708,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/portfolio" />
     </ignored-roots>
-    <MESSAGE value="*Created and added basic story to the InfoCheckoutThemes file&#10;*Added &quot;onClick&quot; actions for all links (which also clears out the added info, if there isn't any)&#10;*Added a CSS variable for the info divs&#10;*removed the hideSubject() method, as it didn't seem to have any use.&#10;*Added a couple of comments on what's going on in each row." />
     <MESSAGE value="*Moved info pages into their own directory&#10;*Added stub pages for the six other currently-mentioned projects" />
     <MESSAGE value="*Added basic story to the Deutsch Telekom info page&#10;*Added connections to the previously-created (but not filled out) Info files" />
     <MESSAGE value="*Changed className for the last row, as it was messing up the formatting&#10;*Changed name in this.state&#10;*Added some comments&#10;*Added basic text info to PlantProject and Bio&#10;*Added an additional line to Masters." />
@@ -726,7 +732,8 @@
     <MESSAGE value="* Added a page for the Chef Jaz Hackathon&#10;* Added an image for that Hackathon&#10;* Added the new profile image for the Bio page" />
     <MESSAGE value="* Added PortfolioV8 image&#10;* Updated React Portfolio Site preview image to go to the V7 image" />
     <MESSAGE value="* Added Hackathon: CoolEye page, and linked all the necessary things in the necessary places" />
-    <option name="LAST_COMMIT_MESSAGE" value="* Added Hackathon: CoolEye page, and linked all the necessary things in the necessary places" />
+    <MESSAGE value="* Made the right column be appended after the left column if width is below a certain number (which would be common on mobile" />
+    <option name="LAST_COMMIT_MESSAGE" value="* Made the right column be appended after the left column if width is below a certain number (which would be common on mobile" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Hello.js" />
@@ -850,15 +857,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="46" column="15" selection-start-line="46" selection-start-column="15" selection-end-line="46" selection-end-column="15" />
+        <state relative-caret-position="622">
+          <caret line="57" column="63" selection-start-line="57" selection-start-column="63" selection-end-line="57" selection-end-column="63" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="254" column="65" selection-start-line="254" selection-start-column="65" selection-end-line="254" selection-end-column="65" />
+        <state relative-caret-position="296">
+          <caret line="254" column="131" selection-start-line="254" selection-start-column="131" selection-end-line="254" selection-end-column="131" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>

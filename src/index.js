@@ -208,7 +208,7 @@ class AppTry extends Component {
                     </div>
                 </div>
                 {/*This row has projects-left image-div projects-right. So general idea is list of projects around the center image*/}
-                <div className="row_2">
+                <div className={isMobile ? "row_2_left_append_1" : "row_2"}>
                     <div className="row_2_left">
                         <p className="projects-left"
                             onMouseEnter={() => this.handlePictureChange("plantProject")}
@@ -252,7 +252,7 @@ class AppTry extends Component {
                         <div><span><img className="center-img" alt="" src={this.state.pic}/></span></div>
                         <div>{this.state.currVideo}</div>
                     </div>
-                    <div className={isMobile ? "row_2_left_append" : "row_2_right"}>
+                    <div className={isMobile ? "row_2_append_2" : "row_2_right"}/*isMobile ? "row_2_left_append" : "row_2_right"*/>
                         <p className="projects-right"
                             onMouseEnter={() => this.handlePictureChange("loveStory")}
                             onClick={() => this.showInfoOn("loveStory")}>
