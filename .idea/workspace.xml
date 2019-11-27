@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b4fe8385-7cc4-4503-952f-e3b69a5e5be4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/info_pages/InfoJuggling.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/info_pages/InfoJuggling.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,7 +19,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="296">
@@ -44,20 +43,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/info_pages/InfoBio.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="26" selection-start-column="26" selection-end-column="26" />
+            <state relative-caret-position="311">
+              <caret line="24" column="129" selection-start-line="24" selection-start-column="129" selection-end-line="24" selection-end-column="129" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/threejs/SceneSubject.js">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/info_pages/InfoJuggling.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="828">
-              <caret line="37" column="23" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#30#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="253">
+              <caret line="11" column="458" selection-start-line="11" selection-start-column="458" selection-end-line="11" selection-end-column="458" />
             </state>
           </provider>
         </entry>
@@ -180,10 +176,8 @@
         <option value="$PROJECT_DIR$/src/InfoEndHeyGuys.js" />
         <option value="$PROJECT_DIR$/src/InfoJuggling.js" />
         <option value="$PROJECT_DIR$/src/info_pages/InfoDeutschTelekom.js" />
-        <option value="$PROJECT_DIR$/src/info_pages/InfoJuggling.js" />
         <option value="$PROJECT_DIR$/src/VideoPlantWatering.js" />
         <option value="$PROJECT_DIR$/src/info_pages/InfoPlantProject.js" />
-        <option value="$PROJECT_DIR$/src/info_pages/InfoBio.js" />
         <option value="$PROJECT_DIR$/src/info_pages/InfoEndHeyGuys.js" />
         <option value="$PROJECT_DIR$/src/threejs/SceneManager.js" />
         <option value="$PROJECT_DIR$/src/threejs/GeneralLights.js" />
@@ -199,6 +193,8 @@
         <option value="$PROJECT_DIR$/src/info_pages/InfoHackCoolEye.js" />
         <option value="$PROJECT_DIR$/src/index.css" />
         <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/info_pages/InfoBio.js" />
+        <option value="$PROJECT_DIR$/src/info_pages/InfoJuggling.js" />
       </list>
     </option>
   </component>
@@ -362,7 +358,7 @@
       <workItem from="1568493164368" duration="4987000" />
       <workItem from="1568866958710" duration="1219000" />
       <workItem from="1573024033191" duration="8538000" />
-      <workItem from="1574316106044" duration="9627000" />
+      <workItem from="1574316106044" duration="95504000" />
     </task>
     <task id="LOCAL-00001" summary="First version, with some support files included">
       <created>1548786530466</created>
@@ -609,11 +605,25 @@
       <option name="project" value="LOCAL" />
       <updated>1574580598127</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="* Trying a different mobile format. Still only half-formed.">
+      <created>1574658264521</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1574658264521</updated>
+    </task>
+    <task id="LOCAL-00037" summary="* Made some minor changes to Bio text">
+      <created>1574753911204</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1574753911204</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="261848000" />
+    <option name="totallyTimeSpent" value="347725000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -638,16 +648,16 @@
       <window_info id="UI Designer" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4994681" weight="0.32928178" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.47576398" visible="true" weight="0.3411371" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.47576398" weight="0.3411371" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49472016" weight="0.3277027" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.49315068" weight="0.3277592" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.4926238" visible="true" weight="0.3277592" />
       <window_info anchor="bottom" id="File Transfer" order="9" sideWeight="0.49367756" weight="0.32936078" />
       <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49155226" weight="0.3277027" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.524236" side_tool="true" visible="true" weight="0.3411371" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5073762" side_tool="true" visible="true" weight="0.3277592" />
       <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.46522656" weight="0.32552955" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -708,8 +718,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/portfolio" />
     </ignored-roots>
-    <MESSAGE value="*Moved info pages into their own directory&#10;*Added stub pages for the six other currently-mentioned projects" />
-    <MESSAGE value="*Added basic story to the Deutsch Telekom info page&#10;*Added connections to the previously-created (but not filled out) Info files" />
     <MESSAGE value="*Changed className for the last row, as it was messing up the formatting&#10;*Changed name in this.state&#10;*Added some comments&#10;*Added basic text info to PlantProject and Bio&#10;*Added an additional line to Masters." />
     <MESSAGE value="*Added basic text info to EndHeyGuys, Juggling, and ReactPortfolio" />
     <MESSAGE value="*Added in a background video for plant watering" />
@@ -733,7 +741,9 @@
     <MESSAGE value="* Added PortfolioV8 image&#10;* Updated React Portfolio Site preview image to go to the V7 image" />
     <MESSAGE value="* Added Hackathon: CoolEye page, and linked all the necessary things in the necessary places" />
     <MESSAGE value="* Made the right column be appended after the left column if width is below a certain number (which would be common on mobile" />
-    <option name="LAST_COMMIT_MESSAGE" value="* Made the right column be appended after the left column if width is below a certain number (which would be common on mobile" />
+    <MESSAGE value="* Trying a different mobile format. Still only half-formed." />
+    <MESSAGE value="* Made some minor changes to Bio text" />
+    <option name="LAST_COMMIT_MESSAGE" value="* Made some minor changes to Bio text" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Hello.js" />
@@ -744,7 +754,6 @@
     <entry file="file://$PROJECT_DIR$/src/VideoPlantWatering.js" />
     <entry file="file://$PROJECT_DIR$/src/info_pages/InfoDeutschTelekom.js" />
     <entry file="file://$PROJECT_DIR$/src/info_pages/InfoEndHeyGuys.js" />
-    <entry file="file://$PROJECT_DIR$/src/info_pages/InfoJuggling.js" />
     <entry file="file://$PROJECT_DIR$/src/info_pages/InfoPlantProject.js" />
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor" />
@@ -793,13 +802,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="7" column="78" selection-start-line="7" selection-start-column="78" selection-end-line="7" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/info_pages/InfoBio.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="26" selection-start-column="26" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -869,6 +871,20 @@
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/info_pages/InfoBio.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="24" column="129" selection-start-line="24" selection-start-column="129" selection-end-line="24" selection-end-column="129" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/info_pages/InfoJuggling.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="458" selection-start-line="11" selection-start-column="458" selection-end-line="11" selection-end-column="458" />
         </state>
       </provider>
     </entry>
