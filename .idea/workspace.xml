@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4fe8385-7cc4-4503-952f-e3b69a5e5be4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/info_pages/InfoBlueStamp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="254" column="131" selection-start-line="254" selection-start-column="131" selection-end-line="254" selection-end-column="131" />
+            <state relative-caret-position="230">
+              <caret line="291" column="37" selection-start-line="291" selection-start-column="37" selection-end-line="291" selection-end-column="37" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -54,7 +53,7 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/info_pages/InfoBlueStamp.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="253">
@@ -188,10 +187,10 @@
         <option value="$PROJECT_DIR$/src/info_pages/InfoHackChefJaz.js" />
         <option value="$PROJECT_DIR$/src/info_pages/InfoHackCoolEye.js" />
         <option value="$PROJECT_DIR$/src/index.css" />
-        <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/info_pages/InfoBio.js" />
         <option value="$PROJECT_DIR$/src/info_pages/InfoJuggling.js" />
         <option value="$PROJECT_DIR$/src/info_pages/InfoBlueStamp.js" />
+        <option value="$PROJECT_DIR$/src/index.js" />
       </list>
     </option>
   </component>
@@ -355,7 +354,7 @@
       <workItem from="1568493164368" duration="4987000" />
       <workItem from="1568866958710" duration="1219000" />
       <workItem from="1573024033191" duration="8538000" />
-      <workItem from="1574316106044" duration="97689000" />
+      <workItem from="1574316106044" duration="99627000" />
     </task>
     <task id="LOCAL-00001" summary="First version, with some support files included">
       <created>1548786530466</created>
@@ -623,11 +622,18 @@
       <option name="project" value="LOCAL" />
       <updated>1574838931132</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="* Created (but haven't linked) a stub page for BlueStamp info">
+      <created>1574921950655</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1574921950656</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="349910000" />
+    <option name="totallyTimeSpent" value="351848000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -722,7 +728,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/portfolio" />
     </ignored-roots>
-    <MESSAGE value="*Added basic text info to EndHeyGuys, Juggling, and ReactPortfolio" />
     <MESSAGE value="*Added in a background video for plant watering" />
     <MESSAGE value="*Changed the video to being a background video only at the top, rather than constantly.&#10;*Added an explanation for the plant video" />
     <MESSAGE value="*Made the center circle into a rounded square&#10;*Made the video play in that rounded square, rather than in the background&#10;*Attempted to change to display: grid, but that may not have done anything&#10;*Stopped null-ing out the picture, as this caused different behavior in Chrome than Firefox" />
@@ -747,7 +752,8 @@
     <MESSAGE value="* Trying a different mobile format. Still only half-formed." />
     <MESSAGE value="* Made some minor changes to Bio text" />
     <MESSAGE value="* Added another paragraph to the Juggling text" />
-    <option name="LAST_COMMIT_MESSAGE" value="* Added another paragraph to the Juggling text" />
+    <MESSAGE value="* Created (but haven't linked) a stub page for BlueStamp info" />
+    <option name="LAST_COMMIT_MESSAGE" value="* Created (but haven't linked) a stub page for BlueStamp info" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Hello.js" />
@@ -860,16 +866,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="254" column="131" selection-start-line="254" selection-start-column="131" selection-end-line="254" selection-end-column="131" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/info_pages/InfoJuggling.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -898,6 +894,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="11" column="211" selection-start-line="11" selection-start-column="211" selection-end-line="11" selection-end-column="211" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="291" column="37" selection-start-line="291" selection-start-column="37" selection-end-line="291" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

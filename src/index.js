@@ -15,6 +15,7 @@ import InfoPirateTalk from './info_pages/InfoPirateTalk';
 import VideoPlantWatering from "./VideoPlantWatering";
 import InfoHackChefJaz from "./info_pages/InfoHackChefJaz";
 import InfoHackCoolEye from "./info_pages/InfoHackCoolEye";
+import InfoBlueStamp from "./info_pages/InfoBlueStamp";
 
 const pics = {
     loveStory: require('./images/LoveStoryScreenshot_Square.png'),
@@ -28,7 +29,8 @@ const pics = {
     juggling: require('./images/juggling_Square.jpg'),
     pirateTalk: require( './images/PirateTalk_Square.jpg'),
     hackChefJaz: require('./images/ChefJazHome_Square.png'),
-    hackCoolEye: require('./images/bacteria_eye.png')
+    hackCoolEye: require('./images/bacteria_eye.png'),
+    blueStamp: require('./images/BlueStampBonsaiTree_Square.jpg')
 };
 
 const subject = {
@@ -43,7 +45,8 @@ const subject = {
     reactPortfolio: <InfoReactPortfolio />,
     pirateTalk: <InfoPirateTalk />,
     hackChefJaz: <InfoHackChefJaz />,
-    hackCoolEye: <InfoHackCoolEye/>
+    hackCoolEye: <InfoHackCoolEye/>,
+    blueStamp: <InfoBlueStamp/>
 };
 
     const video = {
@@ -120,6 +123,9 @@ class AppTry extends Component {
             case "hackCoolEye":
                 this.setState({pic:pics.hackCoolEye});
                 break;
+            case "blueStamp":
+                this.setState({pic:pics.blueStamp});
+                break;
             default:
                 this.setState( {pic:pics.bioPic});
         }
@@ -179,6 +185,10 @@ class AppTry extends Component {
                 break;
             case "hackCoolEye":
                 this.setState( {currSubDiv: subject.hackCoolEye});
+                this.setState({currVideo: null});
+                break;
+            case "blueStamp":
+                this.setState( {currSubDiv: subject.blueStamp});
                 this.setState({currVideo: null});
                 break;
             default:
@@ -275,6 +285,11 @@ class AppTry extends Component {
                             onMouseEnter={() => this.handlePictureChange("juggling")}
                             onClick={() => this.showInfoOn("juggling")}>
                             Juggling
+                        </p>
+                        <p className="projects-right"
+                           onMouseEnter={() => this.handlePictureChange("blueStamp")}
+                           onClick={() => this.showInfoOn("blueStamp")}>
+                            BlueStamp
                         </p>
                     </div>
                 </div>
