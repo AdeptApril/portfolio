@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4fe8385-7cc4-4503-952f-e3b69a5e5be4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/info_pages/InfoStormBBS.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,7 +19,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="230">
@@ -56,8 +57,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/info_pages/InfoBlueStamp.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="11" column="211" selection-start-line="11" selection-start-column="211" selection-end-line="11" selection-end-column="211" />
+            <state relative-caret-position="322">
+              <caret line="14" column="59" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/info_pages/InfoStormBBS.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -76,15 +86,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="253">
               <caret line="11" column="122" selection-start-line="11" selection-start-column="122" selection-end-line="11" selection-end-column="122" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/info_pages/InfoMasters.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="108" selection-start-line="9" selection-start-column="108" selection-end-line="9" selection-end-column="108" />
             </state>
           </provider>
         </entry>
@@ -189,8 +190,9 @@
         <option value="$PROJECT_DIR$/src/index.css" />
         <option value="$PROJECT_DIR$/src/info_pages/InfoBio.js" />
         <option value="$PROJECT_DIR$/src/info_pages/InfoJuggling.js" />
-        <option value="$PROJECT_DIR$/src/info_pages/InfoBlueStamp.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/info_pages/InfoBlueStamp.js" />
+        <option value="$PROJECT_DIR$/src/info_pages/InfoStormBBS.js" />
       </list>
     </option>
   </component>
@@ -354,7 +356,7 @@
       <workItem from="1568493164368" duration="4987000" />
       <workItem from="1568866958710" duration="1219000" />
       <workItem from="1573024033191" duration="8538000" />
-      <workItem from="1574316106044" duration="99627000" />
+      <workItem from="1574316106044" duration="102168000" />
     </task>
     <task id="LOCAL-00001" summary="First version, with some support files included">
       <created>1548786530466</created>
@@ -629,11 +631,25 @@
       <option name="project" value="LOCAL" />
       <updated>1574921950656</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="* linked the BlueStamp page, along with a photo">
+      <created>1575092515506</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1575092515506</updated>
+    </task>
+    <task id="LOCAL-00041" summary="* Reworded and expanded the BlueStamp page">
+      <created>1575172474592</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1575172474592</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="351848000" />
+    <option name="totallyTimeSpent" value="354389000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -728,8 +744,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/portfolio" />
     </ignored-roots>
-    <MESSAGE value="*Added in a background video for plant watering" />
-    <MESSAGE value="*Changed the video to being a background video only at the top, rather than constantly.&#10;*Added an explanation for the plant video" />
     <MESSAGE value="*Made the center circle into a rounded square&#10;*Made the video play in that rounded square, rather than in the background&#10;*Attempted to change to display: grid, but that may not have done anything&#10;*Stopped null-ing out the picture, as this caused different behavior in Chrome than Firefox" />
     <MESSAGE value="*Updated the Portfolio site image to the next version" />
     <MESSAGE value="*Added a paragraph to the page about the portfolio site.&#10;*May be adding three.js links, but unintentionally, if so. Future feature not fully implemented, yet." />
@@ -753,7 +767,9 @@
     <MESSAGE value="* Made some minor changes to Bio text" />
     <MESSAGE value="* Added another paragraph to the Juggling text" />
     <MESSAGE value="* Created (but haven't linked) a stub page for BlueStamp info" />
-    <option name="LAST_COMMIT_MESSAGE" value="* Created (but haven't linked) a stub page for BlueStamp info" />
+    <MESSAGE value="* linked the BlueStamp page, along with a photo" />
+    <MESSAGE value="* Reworded and expanded the BlueStamp page" />
+    <option name="LAST_COMMIT_MESSAGE" value="* Reworded and expanded the BlueStamp page" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Hello.js" />
@@ -890,13 +906,6 @@
     <entry file="file://$PROJECT_DIR$/src/info_pages/InfoDeutschTelekom.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/info_pages/InfoBlueStamp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="211" selection-start-line="11" selection-start-column="211" selection-end-line="11" selection-end-column="211" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -904,6 +913,20 @@
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/info_pages/InfoBlueStamp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="59" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/info_pages/InfoStormBBS.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
