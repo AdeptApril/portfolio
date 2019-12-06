@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4fe8385-7cc4-4503-952f-e3b69a5e5be4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/info_pages/InfoStormBBS.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/Storm_Square.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -356,7 +356,7 @@
       <workItem from="1568493164368" duration="4987000" />
       <workItem from="1568866958710" duration="1219000" />
       <workItem from="1573024033191" duration="8538000" />
-      <workItem from="1574316106044" duration="102168000" />
+      <workItem from="1574316106044" duration="102815000" />
     </task>
     <task id="LOCAL-00001" summary="First version, with some support files included">
       <created>1548786530466</created>
@@ -645,11 +645,18 @@
       <option name="project" value="LOCAL" />
       <updated>1575172474592</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="* Added a stub (but unlinked) page for Storm BBS">
+      <created>1575530337492</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1575530337492</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="354389000" />
+    <option name="totallyTimeSpent" value="355036000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -662,7 +669,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48376068" visible="true" weight="0.24868283" />
       <window_info id="Structure" order="1" sideWeight="0.51623935" side_tool="true" weight="0.24920802" />
@@ -744,7 +750,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/portfolio" />
     </ignored-roots>
-    <MESSAGE value="*Made the center circle into a rounded square&#10;*Made the video play in that rounded square, rather than in the background&#10;*Attempted to change to display: grid, but that may not have done anything&#10;*Stopped null-ing out the picture, as this caused different behavior in Chrome than Firefox" />
     <MESSAGE value="*Updated the Portfolio site image to the next version" />
     <MESSAGE value="*Added a paragraph to the page about the portfolio site.&#10;*May be adding three.js links, but unintentionally, if so. Future feature not fully implemented, yet." />
     <MESSAGE value="*Slightly reworked and expanded the Bio page." />
@@ -769,7 +774,8 @@
     <MESSAGE value="* Created (but haven't linked) a stub page for BlueStamp info" />
     <MESSAGE value="* linked the BlueStamp page, along with a photo" />
     <MESSAGE value="* Reworded and expanded the BlueStamp page" />
-    <option name="LAST_COMMIT_MESSAGE" value="* Reworded and expanded the BlueStamp page" />
+    <MESSAGE value="* Added a stub (but unlinked) page for Storm BBS" />
+    <option name="LAST_COMMIT_MESSAGE" value="* Added a stub (but unlinked) page for Storm BBS" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Hello.js" />
