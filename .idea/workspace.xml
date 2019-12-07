@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4fe8385-7cc4-4503-952f-e3b69a5e5be4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/images/Storm_Square.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,11 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="291" column="37" selection-start-line="291" selection-start-column="37" selection-end-line="291" selection-end-column="37" />
+            <state relative-caret-position="193">
+              <caret line="199" column="26" selection-start-line="199" selection-start-column="26" selection-end-line="199" selection-end-column="26" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -63,7 +63,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/info_pages/InfoStormBBS.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
@@ -190,9 +190,9 @@
         <option value="$PROJECT_DIR$/src/index.css" />
         <option value="$PROJECT_DIR$/src/info_pages/InfoBio.js" />
         <option value="$PROJECT_DIR$/src/info_pages/InfoJuggling.js" />
-        <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/info_pages/InfoBlueStamp.js" />
         <option value="$PROJECT_DIR$/src/info_pages/InfoStormBBS.js" />
+        <option value="$PROJECT_DIR$/src/index.js" />
       </list>
     </option>
   </component>
@@ -356,7 +356,7 @@
       <workItem from="1568493164368" duration="4987000" />
       <workItem from="1568866958710" duration="1219000" />
       <workItem from="1573024033191" duration="8538000" />
-      <workItem from="1574316106044" duration="102815000" />
+      <workItem from="1574316106044" duration="104310000" />
     </task>
     <task id="LOCAL-00001" summary="First version, with some support files included">
       <created>1548786530466</created>
@@ -652,11 +652,18 @@
       <option name="project" value="LOCAL" />
       <updated>1575530337492</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="* Added a square image for Storm BBS">
+      <created>1575613312192</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1575613312192</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="355036000" />
+    <option name="totallyTimeSpent" value="356531000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -669,6 +676,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48376068" visible="true" weight="0.24868283" />
       <window_info id="Structure" order="1" sideWeight="0.51623935" side_tool="true" weight="0.24920802" />
@@ -750,7 +758,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/portfolio" />
     </ignored-roots>
-    <MESSAGE value="*Updated the Portfolio site image to the next version" />
     <MESSAGE value="*Added a paragraph to the page about the portfolio site.&#10;*May be adding three.js links, but unintentionally, if so. Future feature not fully implemented, yet." />
     <MESSAGE value="*Slightly reworked and expanded the Bio page." />
     <MESSAGE value="*Random commit to test git" />
@@ -775,7 +782,8 @@
     <MESSAGE value="* linked the BlueStamp page, along with a photo" />
     <MESSAGE value="* Reworded and expanded the BlueStamp page" />
     <MESSAGE value="* Added a stub (but unlinked) page for Storm BBS" />
-    <option name="LAST_COMMIT_MESSAGE" value="* Added a stub (but unlinked) page for Storm BBS" />
+    <MESSAGE value="* Added a square image for Storm BBS" />
+    <option name="LAST_COMMIT_MESSAGE" value="* Added a square image for Storm BBS" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Hello.js" />
@@ -912,16 +920,6 @@
     <entry file="file://$PROJECT_DIR$/src/info_pages/InfoDeutschTelekom.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="291" column="37" selection-start-line="291" selection-start-column="37" selection-end-line="291" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/info_pages/InfoBlueStamp.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
@@ -933,6 +931,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="199" column="26" selection-start-line="199" selection-start-column="26" selection-end-line="199" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

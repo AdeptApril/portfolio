@@ -16,6 +16,7 @@ import VideoPlantWatering from "./VideoPlantWatering";
 import InfoHackChefJaz from "./info_pages/InfoHackChefJaz";
 import InfoHackCoolEye from "./info_pages/InfoHackCoolEye";
 import InfoBlueStamp from "./info_pages/InfoBlueStamp";
+import InfoStormBBS from "./info_pages/InfoStormBBS";
 
 const pics = {
     loveStory: require('./images/LoveStoryScreenshot_Square.png'),
@@ -30,7 +31,8 @@ const pics = {
     pirateTalk: require( './images/PirateTalk_Square.jpg'),
     hackChefJaz: require('./images/ChefJazHome_Square.png'),
     hackCoolEye: require('./images/bacteria_eye.png'),
-    blueStamp: require('./images/BlueStampBonsaiTree_Square.jpg')
+    blueStamp: require('./images/BlueStampBonsaiTree_Square.jpg'),
+    stormBBS: require('./images/Storm_Square.png')
 };
 
 const subject = {
@@ -46,7 +48,8 @@ const subject = {
     pirateTalk: <InfoPirateTalk />,
     hackChefJaz: <InfoHackChefJaz />,
     hackCoolEye: <InfoHackCoolEye/>,
-    blueStamp: <InfoBlueStamp/>
+    blueStamp: <InfoBlueStamp/>,
+    stormBBS: <InfoStormBBS/>
 };
 
     const video = {
@@ -126,6 +129,9 @@ class AppTry extends Component {
             case "blueStamp":
                 this.setState({pic:pics.blueStamp});
                 break;
+            case "stormBBS":
+                this.setState({pic:pics.stormBBS});
+                break;
             default:
                 this.setState( {pic:pics.bioPic});
         }
@@ -189,6 +195,10 @@ class AppTry extends Component {
                 break;
             case "blueStamp":
                 this.setState( {currSubDiv: subject.blueStamp});
+                this.setState({currVideo: null});
+                break;
+            case "stormBBS":
+                this.setState( {currSubDiv: subject.stormBBS});
                 this.setState({currVideo: null});
                 break;
             default:
@@ -290,6 +300,11 @@ class AppTry extends Component {
                            onMouseEnter={() => this.handlePictureChange("blueStamp")}
                            onClick={() => this.showInfoOn("blueStamp")}>
                             BlueStamp
+                        </p>
+                        <p className="projects-right"
+                           onMouseEnter={() => this.handlePictureChange("stormBBS")}
+                           onClick={() => this.showInfoOn("stormBBS")}>
+                          StormBBS
                         </p>
                     </div>
                 </div>
