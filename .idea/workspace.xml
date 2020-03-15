@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4fe8385-7cc4-4503-952f-e3b69a5e5be4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/PortfolioV8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PortfolioV9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/PortfolioV9_Square.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,7 +24,7 @@
         <entry file="file://$PROJECT_DIR$/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="230">
-              <caret line="25" column="61" lean-forward="true" selection-start-line="25" selection-start-column="61" selection-end-line="25" selection-end-column="61" />
+              <caret line="25" column="61" selection-start-line="25" selection-start-column="61" selection-end-line="25" selection-end-column="61" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -210,7 +208,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -256,6 +253,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
     </panes>
@@ -360,7 +358,8 @@
       <workItem from="1568866958710" duration="1219000" />
       <workItem from="1573024033191" duration="8538000" />
       <workItem from="1574316106044" duration="104310000" />
-      <workItem from="1582934131994" duration="2196000" />
+      <workItem from="1582934131994" duration="2711000" />
+      <workItem from="1584297814082" duration="1217000" />
     </task>
     <task id="LOCAL-00001" summary="First version, with some support files included">
       <created>1548786530466</created>
@@ -663,11 +662,18 @@
       <option name="project" value="LOCAL" />
       <updated>1575613312192</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="* Updated which portfolio image to use&#10;* added newer portfolio pictures">
+      <created>1582937132859</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1582937132859</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="358727000" />
+    <option name="totallyTimeSpent" value="360459000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -681,7 +687,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48376068" visible="true" weight="0.12223393" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48376068" visible="true" weight="0.12223393" />
       <window_info id="Structure" order="1" sideWeight="0.51623935" side_tool="true" weight="0.24920802" />
       <window_info id="npm" order="2" sideWeight="0.51623935" side_tool="true" weight="0.24920802" />
       <window_info id="Favorites" order="3" sideWeight="0.51623935" side_tool="true" weight="0.24920802" />
@@ -700,8 +706,8 @@
       <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.4926238" visible="true" weight="0.3277592" />
       <window_info anchor="bottom" id="File Transfer" order="9" sideWeight="0.49367756" weight="0.32936078" />
       <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49155226" weight="0.3277027" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5353003" side_tool="true" visible="true" weight="0.32552955" />
-      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.4646997" visible="true" weight="0.32552955" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.53635406" side_tool="true" visible="true" weight="0.32552955" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" sideWeight="0.46364594" visible="true" weight="0.32552955" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -761,7 +767,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/portfolio" />
     </ignored-roots>
-    <MESSAGE value="*Added a paragraph to the page about the portfolio site.&#10;*May be adding three.js links, but unintentionally, if so. Future feature not fully implemented, yet." />
     <MESSAGE value="*Slightly reworked and expanded the Bio page." />
     <MESSAGE value="*Random commit to test git" />
     <MESSAGE value="*Further reworked and expanded the Bio page." />
@@ -786,7 +791,8 @@
     <MESSAGE value="* Reworded and expanded the BlueStamp page" />
     <MESSAGE value="* Added a stub (but unlinked) page for Storm BBS" />
     <MESSAGE value="* Added a square image for Storm BBS" />
-    <option name="LAST_COMMIT_MESSAGE" value="* Added a square image for Storm BBS" />
+    <MESSAGE value="* Updated which portfolio image to use&#10;* added newer portfolio pictures" />
+    <option name="LAST_COMMIT_MESSAGE" value="* Updated which portfolio image to use&#10;* added newer portfolio pictures" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Hello.js" />
@@ -881,7 +887,7 @@
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
-          <caret line="25" column="61" lean-forward="true" selection-start-line="25" selection-start-column="61" selection-end-line="25" selection-end-column="61" />
+          <caret line="25" column="61" selection-start-line="25" selection-start-column="61" selection-end-line="25" selection-end-column="61" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
