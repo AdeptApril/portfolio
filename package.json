@@ -6,7 +6,7 @@
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "react-scripts": "^3.4.0",
-    "three": "^0.110.0",
+    "three": "^0.125.0",
     "three-gltf-loader": "^1.111.0",
     "typescript": "^3.8.3"
   },
